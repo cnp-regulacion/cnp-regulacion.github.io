@@ -551,7 +551,7 @@
       "critico": true,
       "info": "fgerheshrseh",
       "enlace": "fhszrea",
-      "flechas": [79],
+      "flechas": [43],
       "profundidad": 0,
       "ley": "LEY Nº 19.300/1994, DEL MINISTERIO SECRETARIA GENERAL DE LA PRESIDENCIA, APRUEBA LEY SOBRE BASES GENERALES DEL MEDIO AMBIENTE, ART. 24."
     },
@@ -2524,6 +2524,20 @@
       "ley": ""
     }],
   "grupos": [
-
+    {
+      "tipo": "grupo",
+      "texto": "PAS mixtos",
+      "id": "g0",
+      "etapa": 0,
+      "organismo": 1,
+      "critico": false,
+      "info": "fgerheshrseh",
+      "enlace": "fhszrea",
+      "nodos": [51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77],
+      "flechas": [],
+      "profundidad": 0,
+      "ley": "",
+      "mostrar": true
+    }
   ]
 }

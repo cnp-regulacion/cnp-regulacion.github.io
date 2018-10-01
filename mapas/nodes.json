@@ -2537,7 +2537,23 @@
       "flechas": [],
       "profundidad": 0,
       "ley": "",
-      "mostrar": true
+      "mostrar": true,
+      "grupos":[]
+    },{
+      "tipo": "grupo",
+      "texto": "PAS ambientales",
+      "id": "g1",
+      "etapa": 0,
+      "organismo": 1,
+      "critico": false,
+      "info": "fgerheshrseh",
+      "enlace": "fhszrea",
+      "nodos": [44,45,46,47,48],
+      "flechas": [],
+      "profundidad": 0,
+      "ley": "",
+      "mostrar": true,
+      "grupos":[]
     }
   ]
 }

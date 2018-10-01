@@ -238,11 +238,10 @@ function procesarProfundidad(nodes) {
     var ids = [0];
     for (var i = 0; i < ids.length; i++) {
         var id = ids[i]
-        //console.log("procesando " + i + " id" + id)
         var node = nodes.find(function (n) {
             return n.id === id;
         });
-        //console.log(node)
+        console.log(node.flechas)
         //if (node.tipo == "inicial" || node.tipo == "final" || node.tipo == "normal" || node.tipo == "subproceso")
         for (var j = 0; j < node.flechas.length; j++) {
             var flecha = node.flechas[j]
@@ -438,7 +437,7 @@ function dibujarNodo(nodo, x, y) {
         case "paralelo":
             aux = dibujarParalelo(nodo, x, y)
             break;
-        case "Pregunta":
+        case "pregunta":
             aux = dibujarPregunta(nodo, x, y)
             break;
         case "or":

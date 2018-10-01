@@ -155,7 +155,7 @@
       "critico": false,
       "info": "fgerheshrseh",
       "enlace": "fhszrea",
-      "flechas": [41223],
+      "flechas": [10,11,12],
       "profundidad": 0,
       "ley": ""
     },
@@ -659,7 +659,7 @@
       "critico": true,
       "info": "fgerheshrseh",
       "enlace": "fhszrea",
-      "flechas": [60,78],
+      "flechas": [78],
       "profundidad": 0,
       "ley": ""
     },
@@ -767,7 +767,7 @@
       "critico": false,
       "info": "fgerheshrseh",
       "enlace": "fhszrea",
-      "flechas": [51],
+      "flechas": [],
       "profundidad": 0,
       "ley": "LEY Nº 11.402/1953, DEL MINISTERIO DE OBRAS PUBLICAS, DISPONE QUE LAS OBRAS DE DEFENSA Y REGULARIZACION DE LAS RIBERAS Y CAUCES DE LOS RIOS, LAGUNAS Y ESTEROS QUE SE REALICEN CON PARTICIPACION FISCAL, SOLAMENTE PODRAN SER EJECUTADAS Y PROYECTADAS POR LA DIRECCION DE OBRAS SANITARIAS DEL MINISTERIO DE OBRAS PUBLICAS, ART. 11."
     },
@@ -779,7 +779,7 @@
       "critico": false,
       "info": "fgerheshrseh",
       "enlace": "fhszrea",
-      "flechas": [62],
+      "flechas": [],
       "profundidad": 0,
       "ley": "D.F.L. Nº 1.122/1981 DEL MINISTERIO DE JUSTICIA, CODIGO DE AGUAS, ART. 171. INCISOS 1º."
     },
@@ -863,7 +863,7 @@
       "critico": false,
       "info": "fgerheshrseh",
       "enlace": "fhszrea",
-      "flechas": [69],
+      "flechas": [],
       "profundidad": 0,
       "ley": ""
     },
@@ -983,7 +983,7 @@
       "critico": false,
       "info": "fgerheshrseh",
       "enlace": "fhszrea",
-      "flechas": [79,80,81,82,83,84,8586.87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113],
+      "flechas": [79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113],
       "profundidad": 0,
       "ley": ""
     },

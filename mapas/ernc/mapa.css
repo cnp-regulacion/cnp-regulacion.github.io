@@ -22,6 +22,11 @@ svg {
     stroke: orangered;
     stroke-width: 1px;
 }
+.blanco {
+    fill: white;
+    stroke: grey;
+    stroke-width: 1px;
+}
 .actividad-critica-highlight {
     fill: #9d604e;
     stroke: #872500;

@@ -245,7 +245,6 @@ function procesarProfundidad(nodes) {
         //if (node.tipo == "inicial" || node.tipo == "final" || node.tipo == "normal" || node.tipo == "subproceso")
         for (var j = 0; j < node.flechas.length; j++) {
             var flecha = node.flechas[j]
-            console.log(flecha)
             if (!ids.includes(flecha)) ids.push(flecha)
             var f = nodes.find(function (n) {
                 return n.id === flecha;
@@ -478,7 +477,9 @@ function dibujarNodo(nodo, x, y) {
 }
 
 function dibujarActividad(nodo, x, y) {
-    var myclass = !nodo.critico ? "actividad" : "actividad-critica"
+    var myclass
+    if (nodo.critico) myclass = "actividad-critica"
+    else myclass = nodo.color == 0 ? "actividad" : "blanco"
     var nodoAux = actividades.append('g')
         .attr('class', 'nodo')
 

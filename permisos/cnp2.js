@@ -1,5 +1,17 @@
 var cnp2 = cnp2 || {};
 
+var color = d3.scale.ordinal().domain([0, 31]).range(["#f6334f", "#eeff0a", "#e79620", "#fe6001", "#fdd14f", "#e9844c", "#e8624e", "#fc3619", "#eab111", "#e9db18", "#ff9d50", "#e67900", "#f7b24e", "#fe7147", "#fdf34c", "#e8521e", "#ff8a0d", "#e66c2c", "#ffa505", "#fe7923", "#e9c513", "#ff4a46", "#e7c04e", "#fc5935", "#e78c39", "#e7a34e", "#e74f4f", "#e7754e", "#febe39", "#f4df4f", "#fed216", "#fc4b00", "#ff824b", "#eced14"])
+
+
+// Generate the pie
+var pie = d3.pie();
+
+// Generate the arcs
+var arc = d3.arc()
+    .innerRadius(0)
+    .outerRadius(100);
+
+
 cnp2.Chart = function () {
     return {
         $j: jQuery,
@@ -171,34 +183,32 @@ cnp2.Chart = function () {
 
             }
             // This is the every circle
-            this.circle = this.svg.selectAll("circle")
+            this.circle = this.svg.selectAll("arc")
                 .data(this.nodes, function (d) {
                     return d.sid;
                 });
-            this.circle.selectAll("arc")
-                .data(function (d) {
-                    return d.detail
-                })
+//Generate groups
+            var arcs = g.selectAll("arc")
+                .data(pie(data))
                 .enter()
                 .append("g")
-                .attr("class", "arc").append("path")
-                .attr("fill", function(d, i) {
-                    return d3.scaleOrdinal(['#4daf4a','#377eb8','#ff7f00','#984ea3','#e41a1c'])(i);
-                })
-                .attr("d", function (d) {
-                    console.log(d)
-                    return d3.arc()
-                        .innerRadius(0)
-                        .outerRadius(d.radius);
-                });
+                .attr("class", "arc")
 
+//Draw arc paths
+            arcs.append("path")
+                .attr("fill", function(d, i) {
+                    return color(i);
+                })
+                .attr("d", arc);
+            this.circle.enter().append("text")
+                .attr("dx", 500)
+                .attr("dy", 500)
+                .text("fweghrh")
             this.circle.enter().append("svg:circle")
                 .attr("r", function (d) {
                     return 0;
                 })
-                .style("fill", function (d) {
-                    return that.getFillColor(d);
-                })
+
                 .style("stroke-width", 1)
                 .attr('id', function (d) {
                     return 'cnp2-circle' + d.sid

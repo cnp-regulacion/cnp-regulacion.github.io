@@ -1,0 +1,743 @@
+origin,carrier,count
+BOMBEROS,Acuicola,2
+BOMBEROS,Agroindustria,2
+BOMBEROS,Aguas servidas,2
+BOMBEROS,Celulosa,2
+BOMBEROS,ERNC,2
+BOMBEROS,Gran Minería,2
+BOMBEROS,Hidro,2
+BOMBEROS,Hospitales,2
+BOMBEROS,Metro,2
+BOMBEROS,Planta desaladora,2
+BOMBEROS,Químicos,2
+BOMBEROS,Residencial,2
+BOMBEROS,Transmisión,0
+BOMBEROS,Vialidad,0
+CBR,Acuicola,0
+CBR,Agroindustria,0
+CBR,Aguas servidas,0
+CBR,Celulosa,0
+CBR,ERNC,0
+CBR,Gran Minería,0
+CBR,Hidro,0
+CBR,Hospitales,2
+CBR,Metro,0
+CBR,Planta desaladora,0
+CBR,Químicos,0
+CBR,Residencial,3
+CBR,Transmisión,0
+CBR,Vialidad,0
+CCHEN,Acuicola,0
+CCHEN,Agroindustria,0
+CCHEN,Aguas servidas,0
+CCHEN,Celulosa,0
+CCHEN,ERNC,0
+CCHEN,Gran Minería,2
+CCHEN,Hidro,0
+CCHEN,Hospitales,12
+CCHEN,Metro,0
+CCHEN,Planta desaladora,0
+CCHEN,Químicos,0
+CCHEN,Residencial,0
+CCHEN,Transmisión,1
+CCHEN,Vialidad,0
+CDE,Acuicola,0
+CDE,Agroindustria,0
+CDE,Aguas servidas,0
+CDE,Celulosa,0
+CDE,ERNC,0
+CDE,Gran Minería,0
+CDE,Hidro,0
+CDE,Hospitales,0
+CDE,Metro,1
+CDE,Planta desaladora,0
+CDE,Químicos,0
+CDE,Residencial,0
+CDE,Transmisión,0
+CDE,Vialidad,0
+CEN,Acuicola,1
+CEN,Agroindustria,0
+CEN,Aguas servidas,1
+CEN,Celulosa,1
+CEN,ERNC,2
+CEN,Gran Minería,1
+CEN,Hidro,2
+CEN,Hospitales,0
+CEN,Metro,0
+CEN,Planta desaladora,1
+CEN,Químicos,1
+CEN,Residencial,0
+CEN,Transmisión,2
+CEN,Vialidad,0
+CGR,Acuicola,0
+CGR,Agroindustria,0
+CGR,Aguas servidas,0
+CGR,Celulosa,0
+CGR,ERNC,0
+CGR,Gran Minería,0
+CGR,Hidro,0
+CGR,Hospitales,0
+CGR,Metro,0
+CGR,Planta desaladora,0
+CGR,Químicos,0
+CGR,Residencial,0
+CGR,Transmisión,0
+CGR,Vialidad,1
+CMN,Acuicola,5
+CMN,Agroindustria,7
+CMN,Aguas servidas,7
+CMN,Celulosa,7
+CMN,ERNC,5
+CMN,Gran Minería,5
+CMN,Hidro,5
+CMN,Hospitales,8
+CMN,Metro,8
+CMN,Planta desaladora,5
+CMN,Químicos,8
+CMN,Residencial,7
+CMN,Transmisión,6
+CMN,Vialidad,7
+CNE,Acuicola,1
+CNE,Agroindustria,0
+CNE,Aguas servidas,1
+CNE,Celulosa,1
+CNE,ERNC,3
+CNE,Gran Minería,1
+CNE,Hidro,3
+CNE,Hospitales,0
+CNE,Metro,0
+CNE,Planta desaladora,1
+CNE,Químicos,1
+CNE,Residencial,0
+CNE,Transmisión,3
+CNE,Vialidad,0
+CONADI,Acuicola,3
+CONADI,Agroindustria,4
+CONADI,Aguas servidas,2
+CONADI,Celulosa,3
+CONADI,ERNC,4
+CONADI,Gran Minería,4
+CONADI,Hidro,4
+CONADI,Hospitales,0
+CONADI,Metro,0
+CONADI,Planta desaladora,2
+CONADI,Químicos,0
+CONADI,Residencial,0
+CONADI,Transmisión,4
+CONADI,Vialidad,4
+CONAF,Acuicola,12
+CONAF,Agroindustria,10
+CONAF,Aguas servidas,14
+CONAF,Celulosa,13
+CONAF,ERNC,15
+CONAF,Gran Minería,14
+CONAF,Hidro,13
+CONAF,Hospitales,0
+CONAF,Metro,0
+CONAF,Planta desaladora,0
+CONAF,Químicos,0
+CONAF,Residencial,0
+CONAF,Transmisión,11
+CONAF,Vialidad,14
+DGA,Acuicola,6
+DGA,Agroindustria,4
+DGA,Aguas servidas,5
+DGA,Celulosa,6
+DGA,ERNC,9
+DGA,Gran Minería,15
+DGA,Hidro,11
+DGA,Hospitales,2
+DGA,Metro,2
+DGA,Planta desaladora,2
+DGA,Químicos,5
+DGA,Residencial,2
+DGA,Transmisión,4
+DGA,Vialidad,2
+DGAC,Acuicola,0
+DGAC,Agroindustria,1
+DGAC,Aguas servidas,0
+DGAC,Celulosa,1
+DGAC,ERNC,5
+DGAC,Gran Minería,4
+DGAC,Hidro,5
+DGAC,Hospitales,4
+DGAC,Metro,0
+DGAC,Planta desaladora,0
+DGAC,Químicos,0
+DGAC,Residencial,2
+DGAC,Transmisión,6
+DGAC,Vialidad,1
+DGMN,Acuicola,0
+DGMN,Agroindustria,0
+DGMN,Aguas servidas,9
+DGMN,Celulosa,9
+DGMN,ERNC,8
+DGMN,Gran Minería,9
+DGMN,Hidro,8
+DGMN,Hospitales,0
+DGMN,Metro,0
+DGMN,Planta desaladora,9
+DGMN,Químicos,12
+DGMN,Residencial,0
+DGMN,Transmisión,8
+DGMN,Vialidad,8
+DIFROL,Acuicola,0
+DIFROL,Agroindustria,0
+DIFROL,Aguas servidas,0
+DIFROL,Celulosa,0
+DIFROL,ERNC,0
+DIFROL,Gran Minería,2
+DIFROL,Hidro,1
+DIFROL,Hospitales,0
+DIFROL,Metro,0
+DIFROL,Planta desaladora,0
+DIFROL,Químicos,0
+DIFROL,Residencial,0
+DIFROL,Transmisión,1
+DIFROL,Vialidad,0
+DIPRES,Acuicola,0
+DIPRES,Agroindustria,0
+DIPRES,Aguas servidas,0
+DIPRES,Celulosa,0
+DIPRES,ERNC,0
+DIPRES,Gran Minería,0
+DIPRES,Hidro,0
+DIPRES,Hospitales,0
+DIPRES,Metro,1
+DIPRES,Planta desaladora,0
+DIPRES,Químicos,0
+DIPRES,Residencial,0
+DIPRES,Transmisión,0
+DIPRES,Vialidad,1
+DIRECCION DE VIALIDAD,Acuicola,7
+DIRECCION DE VIALIDAD,Agroindustria,6
+DIRECCION DE VIALIDAD,Aguas servidas,10
+DIRECCION DE VIALIDAD,Celulosa,5
+DIRECCION DE VIALIDAD,ERNC,9
+DIRECCION DE VIALIDAD,Gran Minería,10
+DIRECCION DE VIALIDAD,Hidro,9
+DIRECCION DE VIALIDAD,Hospitales,6
+DIRECCION DE VIALIDAD,Metro,8
+DIRECCION DE VIALIDAD,Planta desaladora,10
+DIRECCION DE VIALIDAD,Químicos,10
+DIRECCION DE VIALIDAD,Residencial,5
+DIRECCION DE VIALIDAD,Transmisión,8
+DIRECCION DE VIALIDAD,Vialidad,11
+DIRECCION DEL TRABAJO,Acuicola,2
+DIRECCION DEL TRABAJO,Agroindustria,2
+DIRECCION DEL TRABAJO,Aguas servidas,2
+DIRECCION DEL TRABAJO,Celulosa,2
+DIRECCION DEL TRABAJO,ERNC,2
+DIRECCION DEL TRABAJO,Gran Minería,2
+DIRECCION DEL TRABAJO,Hidro,2
+DIRECCION DEL TRABAJO,Hospitales,2
+DIRECCION DEL TRABAJO,Metro,2
+DIRECCION DEL TRABAJO,Planta desaladora,2
+DIRECCION DEL TRABAJO,Químicos,3
+DIRECCION DEL TRABAJO,Residencial,2
+DIRECCION DEL TRABAJO,Transmisión,2
+DIRECCION DEL TRABAJO,Vialidad,2
+DIRECTEMAR,Acuicola,2
+DIRECTEMAR,Agroindustria,1
+DIRECTEMAR,Aguas servidas,2
+DIRECTEMAR,Celulosa,2
+DIRECTEMAR,ERNC,0
+DIRECTEMAR,Gran Minería,3
+DIRECTEMAR,Hidro,0
+DIRECTEMAR,Hospitales,0
+DIRECTEMAR,Metro,0
+DIRECTEMAR,Planta desaladora,2
+DIRECTEMAR,Químicos,0
+DIRECTEMAR,Residencial,0
+DIRECTEMAR,Transmisión,0
+DIRECTEMAR,Vialidad,0
+DOH,Acuicola,0
+DOH,Agroindustria,0
+DOH,Aguas servidas,0
+DOH,Celulosa,0
+DOH,ERNC,0
+DOH,Gran Minería,0
+DOH,Hidro,0
+DOH,Hospitales,1
+DOH,Metro,1
+DOH,Planta desaladora,0
+DOH,Químicos,1
+DOH,Residencial,1
+DOH,Transmisión,0
+DOH,Vialidad,1
+DOM,Acuicola,13
+DOM,Agroindustria,13
+DOM,Aguas servidas,14
+DOM,Celulosa,12
+DOM,ERNC,13
+DOM,Gran Minería,12
+DOM,Hidro,12
+DOM,Hospitales,19
+DOM,Metro,6
+DOM,Planta desaladora,14
+DOM,Químicos,14
+DOM,Residencial,22
+DOM,Transmisión,12
+DOM,Vialidad,11
+EFE,Acuicola,0
+EFE,Agroindustria,0
+EFE,Aguas servidas,0
+EFE,Celulosa,2
+EFE,ERNC,1
+EFE,Gran Minería,1
+EFE,Hidro,1
+EFE,Hospitales,0
+EFE,Metro,0
+EFE,Planta desaladora,0
+EFE,Químicos,0
+EFE,Residencial,0
+EFE,Transmisión,1
+EFE,Vialidad,1
+EMPRESAS DE SERVICIOS,Acuicola,3
+EMPRESAS DE SERVICIOS,Agroindustria,3
+EMPRESAS DE SERVICIOS,Aguas servidas,3
+EMPRESAS DE SERVICIOS,Celulosa,5
+EMPRESAS DE SERVICIOS,ERNC,0
+EMPRESAS DE SERVICIOS,Gran Minería,0
+EMPRESAS DE SERVICIOS,Hidro,0
+EMPRESAS DE SERVICIOS,Hospitales,5
+EMPRESAS DE SERVICIOS,Metro,5
+EMPRESAS DE SERVICIOS,Planta desaladora,3
+EMPRESAS DE SERVICIOS,Químicos,3
+EMPRESAS DE SERVICIOS,Residencial,5
+EMPRESAS DE SERVICIOS,Transmisión,0
+EMPRESAS DE SERVICIOS,Vialidad,1
+GOBERNACION PROVINCIAL,Acuicola,0
+GOBERNACION PROVINCIAL,Agroindustria,0
+GOBERNACION PROVINCIAL,Aguas servidas,0
+GOBERNACION PROVINCIAL,Celulosa,0
+GOBERNACION PROVINCIAL,ERNC,0
+GOBERNACION PROVINCIAL,Gran Minería,1
+GOBERNACION PROVINCIAL,Hidro,0
+GOBERNACION PROVINCIAL,Hospitales,0
+GOBERNACION PROVINCIAL,Metro,0
+GOBERNACION PROVINCIAL,Planta desaladora,0
+GOBERNACION PROVINCIAL,Químicos,0
+GOBERNACION PROVINCIAL,Residencial,0
+GOBERNACION PROVINCIAL,Transmisión,0
+GOBERNACION PROVINCIAL,Vialidad,0
+MINISTERIO DE DEFENSA,Acuicola,1
+MINISTERIO DE DEFENSA,Agroindustria,0
+MINISTERIO DE DEFENSA,Aguas servidas,0
+MINISTERIO DE DEFENSA,Celulosa,1
+MINISTERIO DE DEFENSA,ERNC,0
+MINISTERIO DE DEFENSA,Gran Minería,2
+MINISTERIO DE DEFENSA,Hidro,0
+MINISTERIO DE DEFENSA,Hospitales,0
+MINISTERIO DE DEFENSA,Metro,0
+MINISTERIO DE DEFENSA,Planta desaladora,1
+MINISTERIO DE DEFENSA,Químicos,0
+MINISTERIO DE DEFENSA,Residencial,0
+MINISTERIO DE DEFENSA,Transmisión,0
+MINISTERIO DE DEFENSA,Vialidad,0
+MINISTERIO DE DESARROLLO SOCIAL,Acuicola,0
+MINISTERIO DE DESARROLLO SOCIAL,Agroindustria,0
+MINISTERIO DE DESARROLLO SOCIAL,Aguas servidas,0
+MINISTERIO DE DESARROLLO SOCIAL,Celulosa,0
+MINISTERIO DE DESARROLLO SOCIAL,ERNC,0
+MINISTERIO DE DESARROLLO SOCIAL,Gran Minería,0
+MINISTERIO DE DESARROLLO SOCIAL,Hidro,0
+MINISTERIO DE DESARROLLO SOCIAL,Hospitales,0
+MINISTERIO DE DESARROLLO SOCIAL,Metro,4
+MINISTERIO DE DESARROLLO SOCIAL,Planta desaladora,0
+MINISTERIO DE DESARROLLO SOCIAL,Químicos,0
+MINISTERIO DE DESARROLLO SOCIAL,Residencial,0
+MINISTERIO DE DESARROLLO SOCIAL,Transmisión,0
+MINISTERIO DE DESARROLLO SOCIAL,Vialidad,1
+MINISTERIO DE EDUCACION,Acuicola,0
+MINISTERIO DE EDUCACION,Agroindustria,0
+MINISTERIO DE EDUCACION,Aguas servidas,0
+MINISTERIO DE EDUCACION,Celulosa,0
+MINISTERIO DE EDUCACION,ERNC,0
+MINISTERIO DE EDUCACION,Gran Minería,0
+MINISTERIO DE EDUCACION,Hidro,0
+MINISTERIO DE EDUCACION,Hospitales,1
+MINISTERIO DE EDUCACION,Metro,0
+MINISTERIO DE EDUCACION,Planta desaladora,0
+MINISTERIO DE EDUCACION,Químicos,0
+MINISTERIO DE EDUCACION,Residencial,0
+MINISTERIO DE EDUCACION,Transmisión,0
+MINISTERIO DE EDUCACION,Vialidad,0
+MINISTERIO DE ENERGIA,Acuicola,0
+MINISTERIO DE ENERGIA,Agroindustria,0
+MINISTERIO DE ENERGIA,Aguas servidas,0
+MINISTERIO DE ENERGIA,Celulosa,2
+MINISTERIO DE ENERGIA,ERNC,2
+MINISTERIO DE ENERGIA,Gran Minería,2
+MINISTERIO DE ENERGIA,Hidro,2
+MINISTERIO DE ENERGIA,Hospitales,0
+MINISTERIO DE ENERGIA,Metro,0
+MINISTERIO DE ENERGIA,Planta desaladora,0
+MINISTERIO DE ENERGIA,Químicos,0
+MINISTERIO DE ENERGIA,Residencial,0
+MINISTERIO DE ENERGIA,Transmisión,4
+MINISTERIO DE ENERGIA,Vialidad,0
+MINISTERIO DE MINERIA,Acuicola,0
+MINISTERIO DE MINERIA,Agroindustria,0
+MINISTERIO DE MINERIA,Aguas servidas,0
+MINISTERIO DE MINERIA,Celulosa,0
+MINISTERIO DE MINERIA,ERNC,0
+MINISTERIO DE MINERIA,Gran Minería,2
+MINISTERIO DE MINERIA,Hidro,0
+MINISTERIO DE MINERIA,Hospitales,0
+MINISTERIO DE MINERIA,Metro,0
+MINISTERIO DE MINERIA,Planta desaladora,0
+MINISTERIO DE MINERIA,Químicos,0
+MINISTERIO DE MINERIA,Residencial,0
+MINISTERIO DE MINERIA,Transmisión,0
+MINISTERIO DE MINERIA,Vialidad,0
+MINISTERIO DE OBRAS PUBLICAS,Acuicola,0
+MINISTERIO DE OBRAS PUBLICAS,Agroindustria,0
+MINISTERIO DE OBRAS PUBLICAS,Aguas servidas,0
+MINISTERIO DE OBRAS PUBLICAS,Celulosa,0
+MINISTERIO DE OBRAS PUBLICAS,ERNC,0
+MINISTERIO DE OBRAS PUBLICAS,Gran Minería,0
+MINISTERIO DE OBRAS PUBLICAS,Hidro,0
+MINISTERIO DE OBRAS PUBLICAS,Hospitales,0
+MINISTERIO DE OBRAS PUBLICAS,Metro,1
+MINISTERIO DE OBRAS PUBLICAS,Planta desaladora,0
+MINISTERIO DE OBRAS PUBLICAS,Químicos,0
+MINISTERIO DE OBRAS PUBLICAS,Residencial,0
+MINISTERIO DE OBRAS PUBLICAS,Transmisión,0
+MINISTERIO DE OBRAS PUBLICAS,Vialidad,9
+MINVU/SEREMI MINVU,Acuicola,0
+MINVU/SEREMI MINVU,Agroindustria,1
+MINVU/SEREMI MINVU,Aguas servidas,1
+MINVU/SEREMI MINVU,Celulosa,0
+MINVU/SEREMI MINVU,ERNC,0
+MINVU/SEREMI MINVU,Gran Minería,0
+MINVU/SEREMI MINVU,Hidro,0
+MINVU/SEREMI MINVU,Hospitales,2
+MINVU/SEREMI MINVU,Metro,2
+MINVU/SEREMI MINVU,Planta desaladora,1
+MINVU/SEREMI MINVU,Químicos,2
+MINVU/SEREMI MINVU,Residencial,2
+MINVU/SEREMI MINVU,Transmisión,1
+MINVU/SEREMI MINVU,Vialidad,1
+MUNICIPALIDAD,Acuicola,4
+MUNICIPALIDAD,Agroindustria,3
+MUNICIPALIDAD,Aguas servidas,4
+MUNICIPALIDAD,Celulosa,3
+MUNICIPALIDAD,ERNC,4
+MUNICIPALIDAD,Gran Minería,3
+MUNICIPALIDAD,Hidro,4
+MUNICIPALIDAD,Hospitales,6
+MUNICIPALIDAD,Metro,5
+MUNICIPALIDAD,Planta desaladora,3
+MUNICIPALIDAD,Químicos,4
+MUNICIPALIDAD,Residencial,8
+MUNICIPALIDAD,Transmisión,4
+MUNICIPALIDAD,Vialidad,3
+ONEMI,Acuicola,0
+ONEMI,Agroindustria,0
+ONEMI,Aguas servidas,0
+ONEMI,Celulosa,0
+ONEMI,ERNC,0
+ONEMI,Gran Minería,0
+ONEMI,Hidro,0
+ONEMI,Hospitales,1
+ONEMI,Metro,0
+ONEMI,Planta desaladora,0
+ONEMI,Químicos,0
+ONEMI,Residencial,0
+ONEMI,Transmisión,0
+ONEMI,Vialidad,0
+ORGANIZACIONES DE CERTIFICACION,Acuicola,0
+ORGANIZACIONES DE CERTIFICACION,Agroindustria,0
+ORGANIZACIONES DE CERTIFICACION,Aguas servidas,0
+ORGANIZACIONES DE CERTIFICACION,Celulosa,0
+ORGANIZACIONES DE CERTIFICACION,ERNC,0
+ORGANIZACIONES DE CERTIFICACION,Gran Minería,0
+ORGANIZACIONES DE CERTIFICACION,Hidro,0
+ORGANIZACIONES DE CERTIFICACION,Hospitales,4
+ORGANIZACIONES DE CERTIFICACION,Metro,0
+ORGANIZACIONES DE CERTIFICACION,Planta desaladora,0
+ORGANIZACIONES DE CERTIFICACION,Químicos,0
+ORGANIZACIONES DE CERTIFICACION,Residencial,0
+ORGANIZACIONES DE CERTIFICACION,Transmisión,0
+ORGANIZACIONES DE CERTIFICACION,Vialidad,0
+PODER JUDICIAL,Acuicola,0
+PODER JUDICIAL,Agroindustria,0
+PODER JUDICIAL,Aguas servidas,0
+PODER JUDICIAL,Celulosa,1
+PODER JUDICIAL,ERNC,1
+PODER JUDICIAL,Gran Minería,2
+PODER JUDICIAL,Hidro,1
+PODER JUDICIAL,Hospitales,0
+PODER JUDICIAL,Metro,2
+PODER JUDICIAL,Planta desaladora,0
+PODER JUDICIAL,Químicos,0
+PODER JUDICIAL,Residencial,0
+PODER JUDICIAL,Transmisión,1
+PODER JUDICIAL,Vialidad,0
+SAG,Acuicola,10
+SAG,Agroindustria,7
+SAG,Aguas servidas,9
+SAG,Celulosa,9
+SAG,ERNC,9
+SAG,Gran Minería,9
+SAG,Hidro,9
+SAG,Hospitales,9
+SAG,Metro,7
+SAG,Planta desaladora,8
+SAG,Químicos,14
+SAG,Residencial,8
+SAG,Transmisión,9
+SAG,Vialidad,9
+SEA,Acuicola,2
+SEA,Agroindustria,2
+SEA,Aguas servidas,2
+SEA,Celulosa,2
+SEA,ERNC,2
+SEA,Gran Minería,2
+SEA,Hidro,2
+SEA,Hospitales,2
+SEA,Metro,2
+SEA,Planta desaladora,2
+SEA,Químicos,2
+SEA,Residencial,2
+SEA,Transmisión,2
+SEA,Vialidad,2
+SEC,Acuicola,10
+SEC,Agroindustria,9
+SEC,Aguas servidas,11
+SEC,Celulosa,11
+SEC,ERNC,14
+SEC,Gran Minería,8
+SEC,Hidro,12
+SEC,Hospitales,9
+SEC,Metro,6
+SEC,Planta desaladora,11
+SEC,Químicos,11
+SEC,Residencial,7
+SEC,Transmisión,10
+SEC,Vialidad,5
+SEREMI DE SALUD,Acuicola,38
+SEREMI DE SALUD,Agroindustria,38
+SEREMI DE SALUD,Aguas servidas,31
+SEREMI DE SALUD,Celulosa,46
+SEREMI DE SALUD,ERNC,40
+SEREMI DE SALUD,Gran Minería,45
+SEREMI DE SALUD,Hidro,36
+SEREMI DE SALUD,Hospitales,57
+SEREMI DE SALUD,Metro,34
+SEREMI DE SALUD,Planta desaladora,37
+SEREMI DE SALUD,Químicos,52
+SEREMI DE SALUD,Residencial,30
+SEREMI DE SALUD,Transmisión,34
+SEREMI DE SALUD,Vialidad,28
+SEREMI MMA/MMA,Acuicola,3
+SEREMI MMA/MMA,Agroindustria,2
+SEREMI MMA/MMA,Aguas servidas,3
+SEREMI MMA/MMA,Celulosa,3
+SEREMI MMA/MMA,ERNC,2
+SEREMI MMA/MMA,Gran Minería,2
+SEREMI MMA/MMA,Hidro,2
+SEREMI MMA/MMA,Hospitales,2
+SEREMI MMA/MMA,Metro,2
+SEREMI MMA/MMA,Planta desaladora,3
+SEREMI MMA/MMA,Químicos,2
+SEREMI MMA/MMA,Residencial,2
+SEREMI MMA/MMA,Transmisión,2
+SEREMI MMA/MMA,Vialidad,2
+SEREMI/ MINISTERIO DE BIENES NACIONALES,Acuicola,1
+SEREMI/ MINISTERIO DE BIENES NACIONALES,Agroindustria,1
+SEREMI/ MINISTERIO DE BIENES NACIONALES,Aguas servidas,1
+SEREMI/ MINISTERIO DE BIENES NACIONALES,Celulosa,2
+SEREMI/ MINISTERIO DE BIENES NACIONALES,ERNC,5
+SEREMI/ MINISTERIO DE BIENES NACIONALES,Gran Minería,1
+SEREMI/ MINISTERIO DE BIENES NACIONALES,Hidro,1
+SEREMI/ MINISTERIO DE BIENES NACIONALES,Hospitales,1
+SEREMI/ MINISTERIO DE BIENES NACIONALES,Metro,0
+SEREMI/ MINISTERIO DE BIENES NACIONALES,Planta desaladora,1
+SEREMI/ MINISTERIO DE BIENES NACIONALES,Químicos,1
+SEREMI/ MINISTERIO DE BIENES NACIONALES,Residencial,1
+SEREMI/ MINISTERIO DE BIENES NACIONALES,Transmisión,5
+SEREMI/ MINISTERIO DE BIENES NACIONALES,Vialidad,3
+SEREMITT,Acuicola,1
+SEREMITT,Agroindustria,1
+SEREMITT,Aguas servidas,1
+SEREMITT,Celulosa,1
+SEREMITT,ERNC,1
+SEREMITT,Gran Minería,1
+SEREMITT,Hidro,1
+SEREMITT,Hospitales,2
+SEREMITT,Metro,2
+SEREMITT,Planta desaladora,1
+SEREMITT,Químicos,0
+SEREMITT,Residencial,2
+SEREMITT,Transmisión,1
+SEREMITT,Vialidad,3
+SERNAGEOMIN,Acuicola,0
+SERNAGEOMIN,Agroindustria,0
+SERNAGEOMIN,Aguas servidas,0
+SERNAGEOMIN,Celulosa,0
+SERNAGEOMIN,ERNC,0
+SERNAGEOMIN,Gran Minería,25
+SERNAGEOMIN,Hidro,0
+SERNAGEOMIN,Hospitales,0
+SERNAGEOMIN,Metro,1
+SERNAGEOMIN,Planta desaladora,0
+SERNAGEOMIN,Químicos,0
+SERNAGEOMIN,Residencial,0
+SERNAGEOMIN,Transmisión,0
+SERNAGEOMIN,Vialidad,0
+SERVICIOS DE SALUD,Acuicola,0
+SERVICIOS DE SALUD,Agroindustria,0
+SERVICIOS DE SALUD,Aguas servidas,0
+SERVICIOS DE SALUD,Celulosa,0
+SERVICIOS DE SALUD,ERNC,0
+SERVICIOS DE SALUD,Gran Minería,0
+SERVICIOS DE SALUD,Hidro,0
+SERVICIOS DE SALUD,Hospitales,4
+SERVICIOS DE SALUD,Metro,0
+SERVICIOS DE SALUD,Planta desaladora,0
+SERVICIOS DE SALUD,Químicos,0
+SERVICIOS DE SALUD,Residencial,0
+SERVICIOS DE SALUD,Transmisión,0
+SERVICIOS DE SALUD,Vialidad,0
+SERVIU,Acuicola,0
+SERVIU,Agroindustria,0
+SERVIU,Aguas servidas,0
+SERVIU,Celulosa,0
+SERVIU,ERNC,2
+SERVIU,Gran Minería,0
+SERVIU,Hidro,0
+SERVIU,Hospitales,5
+SERVIU,Metro,6
+SERVIU,Planta desaladora,0
+SERVIU,Químicos,4
+SERVIU,Residencial,5
+SERVIU,Transmisión,0
+SERVIU,Vialidad,9
+SII,Acuicola,0
+SII,Agroindustria,0
+SII,Aguas servidas,0
+SII,Celulosa,0
+SII,ERNC,0
+SII,Gran Minería,0
+SII,Hidro,0
+SII,Hospitales,1
+SII,Metro,0
+SII,Planta desaladora,0
+SII,Químicos,0
+SII,Residencial,5
+SII,Transmisión,0
+SII,Vialidad,0
+SISS,Acuicola,1
+SISS,Agroindustria,1
+SISS,Aguas servidas,2
+SISS,Celulosa,1
+SISS,ERNC,0
+SISS,Gran Minería,1
+SISS,Hidro,0
+SISS,Hospitales,2
+SISS,Metro,0
+SISS,Planta desaladora,1
+SISS,Químicos,0
+SISS,Residencial,2
+SISS,Transmisión,0
+SISS,Vialidad,0
+SMA,Acuicola,6
+SMA,Agroindustria,6
+SMA,Aguas servidas,6
+SMA,Celulosa,6
+SMA,ERNC,5
+SMA,Gran Minería,6
+SMA,Hidro,5
+SMA,Hospitales,4
+SMA,Metro,4
+SMA,Planta desaladora,6
+SMA,Químicos,5
+SMA,Residencial,4
+SMA,Transmisión,4
+SMA,Vialidad,4
+SUBPESCA,Acuicola,4
+SUBPESCA,Agroindustria,0
+SUBPESCA,Aguas servidas,1
+SUBPESCA,Celulosa,1
+SUBPESCA,ERNC,1
+SUBPESCA,Gran Minería,2
+SUBPESCA,Hidro,2
+SUBPESCA,Hospitales,0
+SUBPESCA,Metro,0
+SUBPESCA,Planta desaladora,2
+SUBPESCA,Químicos,0
+SUBPESCA,Residencial,0
+SUBPESCA,Transmisión,0
+SUBPESCA,Vialidad,0
+SUBSECRETARIA DE FUERZAS ARMADAS,Acuicola,1
+SUBSECRETARIA DE FUERZAS ARMADAS,Agroindustria,0
+SUBSECRETARIA DE FUERZAS ARMADAS,Aguas servidas,0
+SUBSECRETARIA DE FUERZAS ARMADAS,Celulosa,0
+SUBSECRETARIA DE FUERZAS ARMADAS,ERNC,0
+SUBSECRETARIA DE FUERZAS ARMADAS,Gran Minería,0
+SUBSECRETARIA DE FUERZAS ARMADAS,Hidro,0
+SUBSECRETARIA DE FUERZAS ARMADAS,Hospitales,0
+SUBSECRETARIA DE FUERZAS ARMADAS,Metro,0
+SUBSECRETARIA DE FUERZAS ARMADAS,Planta desaladora,0
+SUBSECRETARIA DE FUERZAS ARMADAS,Químicos,0
+SUBSECRETARIA DE FUERZAS ARMADAS,Residencial,0
+SUBSECRETARIA DE FUERZAS ARMADAS,Transmisión,0
+SUBSECRETARIA DE FUERZAS ARMADAS,Vialidad,0
+SUBSECRETARIA DE REDES ASISTENCIALES,Acuicola,0
+SUBSECRETARIA DE REDES ASISTENCIALES,Agroindustria,0
+SUBSECRETARIA DE REDES ASISTENCIALES,Aguas servidas,0
+SUBSECRETARIA DE REDES ASISTENCIALES,Celulosa,0
+SUBSECRETARIA DE REDES ASISTENCIALES,ERNC,0
+SUBSECRETARIA DE REDES ASISTENCIALES,Gran Minería,0
+SUBSECRETARIA DE REDES ASISTENCIALES,Hidro,0
+SUBSECRETARIA DE REDES ASISTENCIALES,Hospitales,2
+SUBSECRETARIA DE REDES ASISTENCIALES,Metro,0
+SUBSECRETARIA DE REDES ASISTENCIALES,Planta desaladora,0
+SUBSECRETARIA DE REDES ASISTENCIALES,Químicos,0
+SUBSECRETARIA DE REDES ASISTENCIALES,Residencial,0
+SUBSECRETARIA DE REDES ASISTENCIALES,Transmisión,0
+SUBSECRETARIA DE REDES ASISTENCIALES,Vialidad,0
+SUBTEL,Acuicola,3
+SUBTEL,Agroindustria,3
+SUBTEL,Aguas servidas,3
+SUBTEL,Celulosa,3
+SUBTEL,ERNC,3
+SUBTEL,Gran Minería,3
+SUBTEL,Hidro,3
+SUBTEL,Hospitales,3
+SUBTEL,Metro,3
+SUBTEL,Planta desaladora,3
+SUBTEL,Químicos,3
+SUBTEL,Residencial,3
+SUBTEL,Transmisión,3
+SUBTEL,Vialidad,3
+TGR,Acuicola,0
+TGR,Agroindustria,0
+TGR,Aguas servidas,0
+TGR,Celulosa,0
+TGR,ERNC,0
+TGR,Gran Minería,0
+TGR,Hidro,0
+TGR,Hospitales,0
+TGR,Metro,0
+TGR,Planta desaladora,0
+TGR,Químicos,0
+TGR,Residencial,1
+TGR,Transmisión,0
+TGR,Vialidad,0
+UOCT,Acuicola,0
+UOCT,Agroindustria,0
+UOCT,Aguas servidas,0
+UOCT,Celulosa,0
+UOCT,ERNC,0
+UOCT,Gran Minería,0
+UOCT,Hidro,0
+UOCT,Hospitales,0
+UOCT,Metro,2
+UOCT,Planta desaladora,0
+UOCT,Químicos,0
+UOCT,Residencial,0
+UOCT,Transmisión,0
+UOCT,Vialidad,2

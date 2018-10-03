@@ -235,6 +235,7 @@ function addNodes(nodes, g) {
 */
 
 function procesarProfundidad(nodes) {
+
     var ids = [0];
     for (var i = 0; i < ids.length; i++) {
         var id = ids[i]
@@ -244,6 +245,7 @@ function procesarProfundidad(nodes) {
         //if (node.tipo == "inicial" || node.tipo == "final" || node.tipo == "normal" || node.tipo == "subproceso")
         for (var j = 0; j < node.flechas.length; j++) {
             var flecha = node.flechas[j]
+            console.log(flecha)
             if (!ids.includes(flecha)) ids.push(flecha)
             var f = nodes.find(function (n) {
                 return n.id === flecha;

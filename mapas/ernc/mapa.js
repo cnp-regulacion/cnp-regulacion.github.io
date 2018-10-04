@@ -114,6 +114,7 @@ d3.json('nodes.json', function (error, json) {
     ordenarProfundidad(nodos)
     var etapas = ordenarEtapas(data.etapas, nodos)
     var matriz = crearMatriz(etapas, data.etapas, data.organismos)
+    console.log(matriz)
     dibujarNodos(matriz)
     dibujarFlechas(matriz)
     dibujarLayout(matriz)
@@ -150,7 +151,6 @@ function inicializarNodos(nodes) {
 
 
     }
-    console.log(res)
   /*  var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(res));
     var downloadAnchorNode = document.createElement('a');
     downloadAnchorNode.setAttribute("href",     dataStr);
@@ -205,7 +205,6 @@ function mostrarNodos(nodos, grupos) {
     res.forEach(function (n) {
         n.flechas = Array.from(new Set(n.flechas))
     })
-    console.log(res)
     return res;
 }
 
@@ -265,11 +264,9 @@ function procesarProfundidad(nodes) {
         var node = nodes.find(function (n) {
             return n.id === id;
         });
-        console.log(node)
         //if (node.tipo == "inicial" || node.tipo == "final" || node.tipo == "normal" || node.tipo == "subproceso")
         for (var j = 0; j < node.flechas.length; j++) {
             var flecha = node.flechas[j]
-            console.log(flecha)
             if (!ids.includes(flecha)) ids.push(flecha)
             var f = nodes.find(function (n) {
                 return n.id === flecha;
@@ -300,6 +297,11 @@ function ordenarEtapas(stages, nodes) {
         node = nodes[i];
         sorted[node.etapa].nodes.push(node)
     }
+    sorted.forEach(function (s) {
+        s.nodes.sort(function (a,b) {
+            return a.profundidad - b.profundidad || b.organismo - a.organismo
+        })
+    })
     return sorted
 }
 
@@ -622,6 +624,7 @@ function toggleGroup(grupo) {
     ordenarProfundidad(nodos)
     var etapas = ordenarEtapas(data.etapas, nodos)
     var matriz = crearMatriz(etapas, data.etapas, data.organismos)
+    console.log(matriz)
 
     dibujarNodos(matriz)
     dibujarFlechas(matriz)

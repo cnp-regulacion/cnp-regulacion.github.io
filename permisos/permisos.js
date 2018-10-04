@@ -58,6 +58,9 @@ d3.csv("flights.csv", function (error, flights) {
         .append('tr')
         .on('click', function (d,i) {
             d3.select('#title').text(d.key);
+            d3.select('#tabla-valores').select('tbody').selectAll('tr')
+                .data(d.values)
+
             var disp = [data.organismos[i]]
             d3.select("#chart").selectAll("div").remove()
             var svg = d3.select("#chart").selectAll("div")

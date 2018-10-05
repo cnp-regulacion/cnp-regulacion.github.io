@@ -132,8 +132,8 @@ function inicializarNodos(nodes) {
     var res = nodes
     for (var i = 0; i < res.length; i++) {
         var node = res[i];
-        node.id = i;
-        if (node.tipo == "normal" && node.flechas.length > 1) {
+        //node.id = i;
+  /*      if (node.tipo == "normal" && node.flechas.length > 1) {
             res.push({
                 "original": i,
                 "tipo": "paralelo",
@@ -147,7 +147,7 @@ function inicializarNodos(nodes) {
                 "ley": ""
             })
             node.flechas = [res.length - 1]
-        }
+        }*/
 
 
     }
@@ -394,6 +394,9 @@ function dibujarFlechas(matriz) {
             if (matriz.nodos[i][j] != undefined) {
                 for (var k = 0; k < matriz.nodos[i][j].flechas.length; k++) {
                     dibujarFlecha(matriz, matriz.nodos[i][j], j, i, matriz.nodos[i][j].flechas[k], k)
+                }
+                for (var k = 0; k < matriz.nodos[i][j].atras.length; k++) {
+                    dibujarFlecha(matriz, matriz.nodos[i][j], j, i, matriz.nodos[i][j].atras[k], k)
                 }
             }
         }

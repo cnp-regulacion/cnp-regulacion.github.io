@@ -164,7 +164,7 @@ let infoBox = node.append('foreignObject')
     .append('xhtml:div')
     .classed('circle-overlay__inner', true);
 
-infoBox.append('h2')
+infoBox.append('h4')
     .classed('circle-overlay__title', true)
     .text(d => d.name);
 

@@ -37,9 +37,9 @@ var datas = [
     {
         name: "Total",
         data: [
-            {letter: 'Energía', frequency: 478},
-            {letter: 'Industrias', frequency: 872},
-            {letter: 'Infraestructura', frequency: 447},
+            {letter: 'Energía', frequency: 188},
+            {letter: 'Industrias', frequency: 220},
+            {letter: 'Infraestructura', frequency: 263},
             {letter: 'Inmobiliario', frequency: 133},
             {letter: 'Minería', frequency: 204}]
     },

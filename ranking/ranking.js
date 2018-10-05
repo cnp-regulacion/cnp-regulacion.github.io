@@ -79,47 +79,8 @@ var datas = [
             {letter: 'Explotación', frequency: 204}]
     }
 ];
-var data = datas[0].data;
-x.domain(data.map(function (d) {
-    return d.letter;
-}));
-y.domain([0, d3.max(data, function (d) {
-    return d.frequency;
-})]);
 
-svg.append("g")
-    .attr("class", "x axis")
-    .attr("transform", "translate(0," + height + ")")
-    .call(xAxis);
-
-svg.append("g")
-    .attr("class", "y axis")
-    .call(yAxis)
-    .append("text")
-    .attr("transform", "rotate(-90)")
-    .attr("y", 6)
-    .attr("dy", ".71em")
-    .style("text-anchor", "end")
-    .text("Permisos");
-
-svg.selectAll(".bar")
-    .data(data)
-    .enter().append("rect")
-    .attr("class", "bar")
-    .attr("x", function (d) {
-        return x(d.letter);
-    })
-    .attr("width", x.rangeBand())
-    .attr("y", function (d) {
-        return y(d.frequency);
-    })
-    .attr("height", function (d) {
-        return height - y(d.frequency);
-    })
-    .on('mouseover', tip.show)
-    .on('mouseout', tip.hide)
-
-
+draw(datas[0]);
 function type(d) {
     d.frequency = +d.frequency;
     return d;
@@ -130,9 +91,19 @@ tipos.selectAll('tr')
     .data(datas)
     .enter()
     .append('tr')
-    .on('click', function (d, i) {
+    .on('click', function (d) {
+        draw(d)
+    })
+    .append('a')
+    .attr('href', '#')
+    .text(function (d) {
+        return d.name
+    });
+
+function draw(d) {
+    {
         d3.select('#title').text(d.name);
-        var data = datas[i].data
+        var data = d.data
         x.domain(data.map(function (d) {
             return d.letter;
         }));
@@ -174,10 +145,5 @@ tipos.selectAll('tr')
             .on('mouseout', tip.hide)
 
 
-    })
-    .append('a')
-    .attr('href', '#')
-    .text(function (d) {
-        return d.name
-    });
-
+    }
+}

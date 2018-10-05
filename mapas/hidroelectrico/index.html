@@ -6,13 +6,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Permisos Claves</title>
+    <title>ERNC</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
-
+    <link rel="shortcut icon" type="image/png" href="../../img/favicon.png">
+    <link rel="stylesheet" href="mapa.css">
+    <style>
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            width: 60px;
+            height: 28px;
+            padding: 2px;
+            font: 12px sans-serif;
+            background: lightsteelblue;
+            border: 0px;
+            border-radius: 8px;
+            pointer-events: none;
+        }
+    </style>
     <!-- Custom styles for this template -->
-    <link href="../style.css" rel="stylesheet">
+    <link href="../../style.css" rel="stylesheet">
     <style>
         html, body {
             padding: 0;
@@ -56,7 +70,7 @@
         }
 
         .node {
-            font-size: 14px;
+            font-size: 18px;
             font-family: 'Noto Serif JP', sans-serif;
 
         }
@@ -145,14 +159,14 @@
                 <div class="row">
                     <div class="col-4">
                         <a href="http://www.comisiondeproductividad.cl/">
-                            <img src="../img/logo.png" class="pl-4" alt="">
+                            <img src="../../img/logo.png" class="pl-4" alt="">
                         </a>
                     </div>
                     <div class="col-6">
                         <h1>Estudio de Revisión Regulatoria</h1>
 
 
-                        <h4 align="center">Permisos Claves</h4>
+                        <h4 align="center">ERNC</h4>
 
 
                     </div>
@@ -160,7 +174,7 @@
                 </div>
             </div>
             <nav class="navbar  sticky-top navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="..">Inicio</a>
+                <a class="navbar-brand" href="../..">Inicio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -177,10 +191,9 @@
                                 Gráficos
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="../permisos">Permisos</a>
-                                <a class="dropdown-item" href="../permisos-claves">Permisos Importantes</a>
-                                <a class="dropdown-item" href="../ranking">Permisos por sector</a>
-                                <!--<a class="dropdown-item" href="../ranking">Ranking</a>-->
+                                <a class="dropdown-item" href="../../permisos">Permisos</a>
+                                <a class="dropdown-item" href="../../permisos-claves">Permisos Importantes</a>
+                                <<!--a class="dropdown-item" href="../../ranking">Ranking</a>-->
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -190,7 +203,7 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <span class="dropdown-item-text"><b>Energía</b></span>
-                                <a class="dropdown-item" href="../mapas/ernc">ERNC.</a>
+                                <a class="dropdown-item" href="#">ERNC.</a>
                                 <a class="dropdown-item" href="#">Hidroeléctrico.</a>
                                 <a class="dropdown-item" href="#">Transmisión.</a>
                                 <div class="dropdown-divider"></div>
@@ -216,6 +229,8 @@
                         <form class="form-inline">
                             <button class="btn  btn-sm btn-outline-info" type="button" id="menu-toggle">Glosario
                             </button>
+                            <a href="energia_ernc_0310.pdf" class="btn btn-sm btn-outline-info" target="_blank">Descargar PDF</a>
+
                         </form>
 
 
@@ -223,23 +238,20 @@
                 </div>
             </nav>
             <div class="row justify-content-around mt-3">
-                <svg width="100%" height="700" font-family="sans-serif" font-size="10" text-anchor="middle"></svg>
-                <script src="js/d3.min.js"></script>
-                <script src="js/d3-legend.min.js"></script>
+                <div id="mapa"></div>
+                <div id="cnp-tooltip">
+                    <div id="cnp-tooltipContainer">
+                        <div class="cnp-name"></div>
 
-                <script src="js/data.js">
-
-                </script>
-
-                <script src="js/permisos.js"></script>
+                        <div class="cnp-tail"></div>
+                    </div>
+                </div>
             </div>
-        </div>
 
+        </div>
     </div>
     <!-- /#page-content-wrapper -->
 </div>
-<!-- /#wrapper -->
-
 <!-- Bootstrap core JavaScript -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -251,6 +263,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3plus/1.8.0/d3plus.min.js"></script>
+<script src="mapa.js"></script>
 
 <!-- Menu Toggle Script -->
 <script>

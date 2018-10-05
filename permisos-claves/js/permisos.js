@@ -120,6 +120,7 @@ node.filter(d => String(d.icon).includes('img/'))
     .attr('height', d => d.radius * 2 * 0.7)
     .attr('width', d => d.radius * 2 * 0.7)
 
+
 node.append('title')
     .text(d => (d.cat + '::' + d.name + '\n' + format(d.value)));
 
@@ -156,10 +157,10 @@ let legendSize = d3.legendSize()
 */
 let infoBox = node.append('foreignObject')
     .classed('circle-overlay hidden', true)
-    .attr('x', -350 * 0.5 * 0.8)
-    .attr('y', -350 * 0.5 * 0.8)
-    .attr('height', 350 * 0.8)
-    .attr('width', 350 * 0.8)
+    .attr('x', -200)
+    .attr('y', -150)
+    .attr('height', 400)
+    .attr('width', 400)
     .append('xhtml:div')
     .classed('circle-overlay__inner', true);
 
@@ -213,7 +214,7 @@ node.on('click', (currentNode) => {
             console.log('tweenMoveIn', currentNode);
             let ix = d3.interpolateNumber(currentNode.x, centerX);
             let iy = d3.interpolateNumber(currentNode.y, centerY);
-            let ir = d3.interpolateNumber(currentNode.r, centerY * 0.5);
+            let ir = d3.interpolateNumber(currentNode.r, centerY * 0.7);
             return function (t) {
                 // console.log('i', ix(t), iy(t));
                 currentNode.fx = ix(t);

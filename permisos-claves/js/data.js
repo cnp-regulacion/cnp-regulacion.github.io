@@ -1,180 +1,44 @@
 // Based loosely from this D3 bubble graph https://bl.ocks.org/mbostock/4063269
 // And this Forced directed diagram https://bl.ocks.org/mbostock/4062045
-let data = [{
-    cat: 'Ministerio de Vivienda y Urbanismo', name: 'Certificado de Informaciones Previas', value: 100,
-    icon: 'CIP',
-    desc: `
-				DECRETO Nº 47/1992, DEL MINISTERIO DE VIVIENDA Y URBANISMO, ORDENANZA GENERAL DE LA LEY GENERAL DE URBANISMO Y CONSTRUCCIONES, ART. 1.4.4.
-			`
-}, {
-    cat: 'Ministerio de Bienes Nacionales', name: 'Petición de Desafectación', value: 10,
-    icon: 'img/names_5.png',
-    desc: `
-				DECRETO Nº 1939/1977, DEL MINISTERIO DE TIERRAS Y COLONIZACION, NORMAS SOBRE ADQUISICION, ADMINISTRACION Y DISPOSICION DE BIENES DEL ESTADO, ART. 64 Y 65.
-			`
-}, {
-    cat: 'Ministerio de Agricultura', name: 'Declaración de Interés Nacional', value: 70,
-    icon: 'DIN',
-    desc: `
-				"LEY Nº 20.283/2008, DEL MINISTERIO DE AGRICULTURA, 
-LEY SOBRE RECUPERACIÓN DEL BOSQUE NATIVO Y FOMENTO FORESTAL, ART. 19."
-			`
-}, {
-    cat: 'Ministerio de Energía', name: 'Concesión Eléctrica', value: 40,
-    icon: 'Eléctrica',
-    desc: `
-				D.F.L Nº 4/20018/2006, DEL MINISTERIO DE ECONOMIA, FOMENTO Y RECONSTRUCCION, FIJA TEXTO REFUNDIDO, COORDINADO Y SISTEMATIZADO DEL DECRETO CON FUERZA DE LEY N°1, DE MINERIA, DE 1982, LEY GENERAL DE SERVICIOS ELECTRICOS, EN MATERIA DE ENERGIA ELECTRICA, ART. 19 (CONCESION PROVISIONAL) Y ART. 25 (CONCESION DEFINITIVA).
-			`
-}, {
-    cat: 'Ministerio de Agricultura', name: 'PAS 127', value: 30,
-    icon: 'img/names_2.png',
-    desc: `
-				D.S Nº 490/1976, DEL MINISTERIO DE AGRICULTURA, DECLARA MONUMENTO NATURAL A LA ESPECIE FORESTAL ALERCE, ART. 2.`
-}, {
-    cat: 'Ministerio de Desarrollo Social', name: 'Presencia de Territorio Indígena', value: 30,
-    icon: 'Indígena',
-    desc: `
-				LEY Nº 19.253/1993, DEL MINISTERIO DE PLANIFICACION Y COOPERACION, ESTABLECE NORMAS SOBRE PROTECCION, FOMENTO Y DESARROLLO DE LOS INDIGENAS, Y CREA LA CORPORACION NACIONAL DE DESARROLLO INDIGENA, ART. 12 Y 15.
-			`
-}, {
-    cat: 'Ministerio de Economía, Fomento y Turismo', name: 'PAS 119', value: 20,
-    icon: 'PAS 119',
-    desc: `
-				D.S Nº 430/1991, DEL MINISTERIO DE ECONOMIA, FOMENTO Y RECONSTRUCCION, QUE FIJA EL TEXTO REFUNDIDO, COORDINADO Y SISTEMATIZADO DE LA LEY N° 18.892, DE 1989 Y SUS MODIFICACIONES, LEY GENERAL DE PESCA Y ACUICULTURA, ART. 99.
-			`
-}, {
-    cat: 'Ministerio de Educación', name: 'PAS 131', value: 80,
-    icon: 'PAS 131',
-    desc: `
-				LEY Nº 17.288/1970, DEL MINISTERIO DE EDUCACION PUBLICA, LEGISLA SOBRE MONUMENTOS NACIONALES, ART. 11 Y 12.
-			`
-}, {
-    cat: 'Ministerio de Educación', name: 'PAS 132', value: 30,
-    icon: 'PAS 132',
-    desc: `
-				LEY Nº 17.288/1970, DEL MINISTERIO DE EDUCACION PUBLICA, LEGISLA SOBRE MONUMENTOS NACIONALES, ART. 22 Y 23. / DECRETO Nº 484/1990, DEL MINISTERIO DE EDUCACION, REGLAMENTO DE LA LEY N° 17.288, SOBRE EXCAVACIONES Y/O PROSPECCIONES ARQUEOLOGICAS, ANTROPOLOGICAS Y PALEONTOLOGICAS, ART. 7, 8 Y 9.
-			`
-}, /*{
-			cat: 'framework', name: 'Trails.JS', value: 10,
-			icon: '',
-		},*/ {
-    cat: 'Ministerio de Agricultura', name: 'PAS 124', value: 50,
-    icon: 'PAS 124',
-    desc: `
-				LEY Nº 19.473/1996, DEL MINISTERIO DE AGRICULTURA, SUSTITUYE TEXTO DE LA LEY Nº 4.601, SOBRE CAZA, Y ARTICULO 609 DEL CODIGO CIVIL, ART. 9.
-			`
-}, {
-    cat: 'Ministerio de Agricultura', name: 'PAS 127', value: 10,
-    icon: 'img/names_2.png',
-    desc: `
-			D.S Nº 490/1976, DEL MINISTERIO DE AGRICULTURA, DECLARA MONUMENTO NATURAL A LA ESPECIE FORESTAL ALERCE, ART. 2.
-			`
-}, {
-    cat: 'Ministerio de Agricultura', name: 'PAS 128', value: 30,
-    icon: 'PAS 128',
-    desc: `
-				D.S Nº 43/1990, DEL MINISTERIO DE AGRICULTURA, DECLARA MONUMENTO NATURAL A LA ARAUCARIA ARAUCANA, ART. 2.
-			`
-}, /*{
-			cat: 'framework', name: 'Foundation', value: 10,
-			icon: '',
-		},*/{
-    cat: 'Ministerio de Agricultura', name: 'PAS 129', value: 50,
-    icon: 'PAS 129',
-    desc: `
-				D.S Nº 13/1995, DEL MINISTERIO DE AGRICULTURA, DECLARA MONUMENTO NATURAL A LAS ESPECIES FORESTALES QUEULE, PITAO, BELLOTO DEL SUR, BELLOTO DEL NORTE Y RUIL, ART. 2.
-			`
-}, {
-    cat: 'Ministerio de Agricultura', name: 'Evaluación Ambiental', value: 100,
-    icon: 'img/names.png',
-    desc: `
-				DECRETO Nº 40/2012, DEL MINISTERIO DEL MEDIO AMBIENTE, APRUEBA REGLAMENTO DEL SISTEMA DE EVALUACION DE IMPACTO AMBIENTAL, ART. 28.
-			`
-}, /*{
-			cat: 'framework', name: 'SenchaTouch', value: 10,
-			icon: '',
-		},*/ {
-    cat: 'Ministerio de Agricultura', name: 'PAS 120', value: 10,
-    icon: 'img/names_1.png',
-    desc: `
-				LEY Nº 17.288/1970, DEL MINISTERIO DE EDUCACION PUBLICA, LEGISLA SOBRE MONUMENTOS NACIONALES, ART. 31. INCISO 3º.
-			`
-}, {
-    cat: 'Ministerio de Agricultura', name: 'PAS 123', value: 70,
-    icon: 'PAS 123',
-    desc: `
-				LEY Nº 19.473/1996, DEL MINISTERIO DE AGRICULTURA, SUSTITUYE TEXTO DE LA LEY Nº 4.601, SOBRE CAZA, Y ARTICULO 609 DEL CODIGO CIVIL, ART. 25, INCISO 2º.
-			`
-}, {
-    cat: 'Ministerio de Agricultura', name: 'PAS 126', value: 30,
-    icon: 'PAS 126',
-    desc: `
-				D.S Nº 4/2009, DEL MINISTERIO SECRETARIA GENERAL DE LA PRESIDENCIA, REGLAMENTO PARA EL MANEJO DE LODOS GENERADOS EN PLANTAS DE TRATAMIENTO DE AGUAS SERVIDAS, ART. 9.
-			`
-}, {
-    cat: 'Ministerio de Agricultura', name: 'PAS 127', value: 100,
-    icon: 'PAS 127',
-    desc: `
-				D.S Nº 490/1976, DEL MINISTERIO DE AGRICULTURA, DECLARA MONUMENTO NATURAL A LA ESPECIE FORESTAL ALERCE, ART. 2.
-			`
-}, {
-    cat: 'Ministerio de Agricultura', name: 'PAS 129', value: 50,
-    icon: 'PAS 129',
-    desc: `
-				D.S Nº 13/1995, DEL MINISTERIO DE AGRICULTURA, DECLARA MONUMENTO NATURAL A LAS ESPECIES FORESTALES QUEULE, PITAO, BELLOTO DEL SUR, BELLOTO DEL NORTE Y RUIL, ART. 2.
-			`
-}, {
-    cat: 'Ministerio de Agricultura', name: 'Resolución de Calificación Ambiental', value: 120,
-    icon: 'RCA',
-    desc: `
-			LEY Nº 19.300/1994, DEL MINISTERIO SECRETARIA GENERAL DE LA PRESIDENCIA, APRUEBA LEY SOBRE BASES GENERALES DEL MEDIO AMBIENTE, ART. 24.
-			`
-}, {
-    cat: 'Ministerio de Salud', name: 'PAS 138', value: 20,
-    icon: 'PAS 138',
-    desc: `
-				D.F.L Nº 725/1967, DEL MINISTERIO DE SALUD PUBLICA, CODIGO SANITARIO, ART. 71 LETRA B) .
-			`
-}, {
-    cat: 'Ministerio de Salud', name: 'PAS 139', value: 30,
-    icon: 'PAS 139',
-    desc: `
-				D.F.L Nº 725/1967, DEL MINISTERIO DE SALUD PUBLICA, CODIGO SANITARIO, ART. 71 LETRA B) .
-			`
-}, {
-    cat: 'Ministerio de Salud', name: 'PAS 140', value: 30,
-    icon: 'PAS 140',
-    desc: `
-				D.F.L Nº 725/1967, DEL MINISTERIO DE SALUD PUBLICA, CODIGO SANITARIO, ART. 79 Y 80
-			`
-}, {
-    cat: 'Ministerio de Salud', name: 'PAS 142', value: 10,
-    icon: 'img/names_4.png',
-    desc: `
-				D.S Nº 148/2003, DEL MINISTERIO DE SALUD, REGLAMENTO SANITARIO SOBRE MANEJO DE RESIDUOS PELIGROSOS, ART. 29.
-			`
-}, {
-    cat: 'Ministerio de Salud', name: 'PAS 145', value: 50,
-    icon: 'PAS 145',
-    desc: `
-				D.S Nº 148/2003, DEL MINISTERIO DE SALUD, REGLAMENTO SANITARIO SOBRE MANEJO DE RESIDUOS PELIGROSOS, ART. 52.
-			`
-}, {
-    cat: 'Ministerio de Salud', name: 'PAS 161', value: 10,
-    icon: 'img/names_3.png',
-    desc: `
-				DECRETO Nº 47/1992, DEL MINISTERIO DE VIVIENDA Y URBANISMO, ORDENANZA GENERAL DE LA LEY GENERAL DE URBANISMO Y CONSTRUCCIONES, ART. 4.14.2.
-			`
-}, {
-    cat: 'Ministerio de Educación', name: 'PAS 131', value: 30,
-    icon: 'PAS 131',
-    desc: `
-				LEY Nº 17.288/1970, DEL MINISTERIO DE EDUCACION PUBLICA, LEGISLA SOBRE MONUMENTOS NACIONALES, ART. 11 Y 12.
-			`
-}, {
-    cat: 'Ministerio de Obras Públicas', name: 'PAS 159', value: 20,
-    icon: 'PAS 159',
-    desc: `
-				LEY Nº 11.402/1953, DEL MINISTERIO DE OBRAS PUBLICAS, DISPONE QUE LAS OBRAS DE DEFENSA Y REGULARIZACION DE LAS RIBERAS Y CAUCES DE LOS RIOS, LAGUNAS Y ESTEROS QUE SE REALICEN CON PARTICIPACION FISCAL, SOLAMENTE PODRAN SER EJECUTADAS Y PROYECTADAS POR LA DIRECCION DE OBRAS SANITARIAS DEL MINISTERIO DE OBRAS PUBLICAS, ART. 11.
-			`
-}];
+let data = [{cat: 'Ministerio de Educación', name: 'Permiso para hacer excavaciones de tipo arqueológico, antropológico y paleontológico', value: 100 ,icon:'Excavaciones', desc: 'Ley Nº 17.288/1970, del Ministerio de Educación Pública, Legisla Sobre Monumentos Nacionales, Art. 22 y 23. / Decreto Nº 484/1990, del Ministerio de Educación, Reglamento de la Ley N° 17.288, Sobre Excavaciones y/o Prospecciones Arqueológicas, Antropológicas y Paleontológicas, Art. 7, 8 y 9.'},
+    {cat: 'Ministerio de Agricultura', name: 'Permiso para la Caza o Captura de Ejemplares de Animales de Especies Protegidas para Controlar la Acción de Animales que Causen Graves Perjuicios al Ecosistema', value: 100 ,icon:'Caza;Captura', desc: 'Ley Nº 19.473/1996, del Ministerio de Agricultura, Sustituye Texto de la Ley Nº 4.601, Sobre Caza, y Artículo 609 del Código Civil, Art. 9.'},
+    {cat: 'Muncipalidad', name: 'Autorización Líneas Eléctricas No Concesionadas Puedan Usar o Cruzar Calles, Otras Líneas o Bienes Nacionales de Uso Público', value: 100 ,icon:'Líneas;Eléctricas', desc: 'D.S. Nº 327/1998, del Ministerio de Minería, Reglamento de la Ley General de Servicios Eléctricos, Art. 64.'},
+    {cat: 'Ministerio del Medio Ambiente', name: 'Resolución de Calificación Ambiental', value: 100 ,icon:'RCA', desc: 'Ley Nº 19300/1994, del Ministerio Secretaría General de la Presidencia, Aprueba Ley Sobre Bases Generales del Medio Ambiente, Art. 24.'},
+    {cat: 'Ministerio de Energía', name: 'Aviso Inicio de Obra Instalación de Combustible Líquido Temporal/Definitivo', value: 100 ,icon:'Instalación;Combustibles', desc: 'D.S. Nº160/08 del Ministerio de Economía, Reglamento de Seguridad para Las Instalaciones y Operaciones de Producción y Refinación, Transporte, Almacenamiento, Distribución y Abastecimiento de Combustibles Líquidos, Artículo 298.'},
+    {cat: 'Ministerio de Transportes Y Telecomunicaciones', name: 'Verificación Cumplimiento de Estándares de Guías de Planificación y Diseño', value: 100 ,icon:'Guías;Planificación;y Diseño', desc: 'Ley Nº 18.168/1982, del Ministerio de Transportes y Telecomunicaciones, Ley General de Telecomunicaciones, Art. 9. '},
+    {cat: 'Ministerio de Agricultura', name: 'Permiso para la Caza o Captura de Ejemplares de Animales de Especies Protegidas para Fines de Investigación, para el Establecimiento de Centros de Reproducción o Criaderos y para la Utilización Sustentable del Recurso', value: 100 ,icon:'Especies;Protegidas', desc: 'Ley N° 4.601/1929, Sobre Caza, Modificada Por la Ley N° 19.473, Que Sustituye el Texto de la Ley N° 4.601, Sobre Caza, Art. 9. Inciso 1º. / Art. 609 del Código Civil.'},
+    {cat: 'Ministerio de Salud', name: 'Informe Sanitario', value: 100 ,icon:'Informe;Sanitario', desc: 'D.F.L Nº 725/1967, del Ministerio de Salud Publica, Código Sanitario, Art. 71, 73 y 83.'},
+    {cat: 'Ministerio de Educación', name: 'Autorización para Realizar el Rescate de Objetos, Especies Procedentes de Excavaciones y/o Prospecciones Arqueológicas, Antropológicas y Paleontológicas', value: 100 ,icon:'Rescate;de;Objetos', desc: 'D.S. Nº484/1990 del Ministerio de Educación, Reglamento Sobre Excavaciones y/o Prospecciones Arqueológicas, Antropológicas y Paleontológicas, Art. 21 y 23.'},
+    {cat: 'Ministerio de Obras Públicas', name: 'Autorización Obras de Acceso Temporal', value: 100 ,icon:'Obras;Acceso;Temporal', desc: 'Resolución Nº 232/2002, del Ministerio de Obras Públicas, Deja Sin Efecto Resolución Dv Nº 416, de 1987, y Aprueba Nuevas Normas Sobre Accesos a Caminos Públicos, Art. 6.'},
+    {cat: 'Ministerio del Medio Ambiente', name: 'Aviso Inicio Construcción', value: 100 ,icon:'Aviso;Inicio;Construcción', desc: 'Decreto Nº 40/2012, del Ministerio del Medio Ambiente, Aprueba Reglamento del Sistema de Evaluación de Impacto Ambiental, Art. 73.'},
+    {cat: 'Ministerio de Salud', name: 'Declaración de Emisión de Fuentes Fijas', value: 100 ,icon:'Fuentes;Fijas', desc: 'D.S. Nº 1/2013, del Ministerio del Medio Ambiente, Aprueba Reglamento del Registro de Emisiones y Transferencias de Contaminantes, Retc,  Art. 26, 27 y 28.'},
+    {cat: 'Ministerio de Salud', name: 'Autorización Reglamento Interno de Orden, Higiene y Seguridad', value: 100 ,icon:'Reglamento;Sanitario', desc: 'D.F.L Nº 725/1967, del Ministerio de Salud Pública, Código Sanitario, Art. 82.'},
+    {cat: 'Ministerio de Salud', name: 'Autorización Transporte y Disposición de Residuos Industriales Fuera del Predio', value: 100 ,icon:'Residuos;Industriales;Fuera del;Predio', desc: 'D.S. Nº 594/2000, del Ministerio de Salud, Reglamento Sobre Condiciones Sanitarias y Ambientales Básicas en los Lugares de Trabajo, Art. 19.'},
+    {cat: 'Ministerio de Salud', name: 'Declaración y Seguimiento de Residuos Peligrosos', value: 100 ,icon:'Seguimiento;de Residuos;Peligrosos', desc: 'D.S. Nº 148/2004, del Ministerio de Salud, Reglamento Sanitario Sobre Manejo de Residuos Peligrosos, Art. 80 y Siguientes.'},
+    {cat: 'Ministerio del Trabajo Y Previsión Social', name: 'Autorización Sistema Excepcional de Distribución de Jornada de Trabajo y Descanso', value: 100 ,icon:'Jornada;de;Trabajo', desc: 'D.F.L Nº 1/2002, del Ministerio del Trabajo y Previsión Social, Código del Trabajo, Art. 38.'},
+    {cat: 'Ministerio de Salud', name: 'Autorización Reglamento Interno de Orden, Higiene y Seguridad', value: 100 ,icon:'Reglamento;DT', desc: 'D.F.L Nº 725/1967, del Ministerio de Salud Púlica, Código Sanitario, Art. 82.'},
+    {cat: 'Ministerio de Transportes Y Telecomunicaciones', name: 'Recepción Obras Inicio Servicio de Telecomunicaciones', value: 110 ,icon:'Telecomu-;nicaciones', desc: 'Ley Nº 18.168/1982, del Ministerio de Transportes y Telecomunicaciones, Ley General de Telecomunicaciones, Art. 24-A. '},
+    {cat: 'Ministerio de Energía', name: 'Declaración de Instalación Eléctrica Interior (TE1)', value: 100 ,icon:'TE1', desc: 'Resolución Exenta Nº 1128 Sec, del Ministerio de Economía, Fomento y Reconstrucción, Nº 4.1.'},
+    {cat: 'Ministerio del Medio Ambiente', name: 'Aviso Término Construcción', value: 100 ,icon:'Aviso;Término;Construcción', desc: 'Ley Nº 20.417, del Ministerio Secretaría General de la Presidencia, Crea el  Ministerio, el  Servicio de Evaluación Ambiental y la Superintendencia del Medio Ambiente, Art. 2 y Art. 3, Letra A).'},
+    {cat: 'Ministerio de Obras Públicas', name: 'Autorización Acceso Definitivo a Caminos Públicos', value: 100 ,icon:'Caminos;Públicos', desc: 'Resolución Nº 232/2002, del Ministerio de Obras Publicas, Deja Sin Efecto Resolución Dv Nº 416, de 1987, y Aprueba Nuevas Normas Sobre Accesos a Caminos Públicos, Art. 6.'},
+    {cat: 'Ministerio del Medio Ambiente', name: 'Aviso Inicio de Operación', value: 100 ,icon:'Aviso;Inicio;Operación', desc: 'Decreto Nº 40/2012, del Ministerio del Medio Ambiente, Aprueba Reglamento del Sistema de Evaluacion de Impacto Ambiental, Art. 18, C.6 y Art. 19, A.6.'},
+    {cat: 'Ministerio de Energía', name: 'Autorización para Retiro de Combustible y Metales Pesados', value: 100 ,icon:'Combustible;Metales;Pesados', desc: 'Ley Nº 18.410, del Ministerio de Economía, Fomento y Reconstrucción, Crea la Superintendencia de Electricidad y Combustibles, Art. 2.'},
+    {cat: 'Ministerio de Obras Públicas', name: 'Autorización Líneas Eléctricas No Concesionadas Puedan Usar o Cruzar Calles, Otras Líneas o Bienes Nacionales de Uso Público', value: 100 ,icon:'Cruce;de;Líneas', desc: 'D.S. Nº 327/1998, del Ministerio de Minería, Reglamento de la Ley General de Servicios Eléctricos, Art. 64.'},
+    {cat: 'Ministerio de Vivienda Y Urbanismo', name: 'Autorización Obras Menores', value: 100 ,icon:'Obras;Menores', desc: 'Decreto Nº 47/1992, del Ministerio de Vivienda y Urbanismo, Fija Nuevo Texto de la Ordenanza General de la Ley General de Urbanismo y Construcciones, Art. 5.1.1.'},
+    {cat: 'Ministerio de Salud', name: 'Plan de Manejo de Residuos Peligrosos', value: 100 ,icon:'Manejo;Residuos;Peligrosos', desc: 'Decreto Nº 148/2003, del Ministerio de Salud, Aprueba Reglamento Sanitario Sobre Manejo de Residuos Peligrosos, Art. 25.'},
+    {cat: 'Ministerio de Agricultura', name: 'Permiso para la Recolección de Huevos y Crías con Fines Científicos o de Reproducción', value: 100 ,icon:'Recolección;de;Huevos', desc: 'Ley Nº 19.473/1996, del Ministerio de Agricultura, Sustituye Texto de la Ley N° 4.601, Sobre Caza, y Artículo 609 del Código Civil, Art. 5.'},
+    {cat: 'Ministerio de Salud', name: 'Declaración de Emisiones Grupo Electrógeno', value: 100 ,icon:'Emisiones;Grupo;Electrógeno', desc: 'D.S Nº 66/2009, del Ministerio Secretaría General de la Presidencia, Revisa, Reformula y Actualiza Plan de Prevención y Descontaminación Atmosférica para la Región Metropolitana (Ppda), Art. 97. / Decreto Nº 138/2005, del Ministerio de Salud, Establece Obligación de Declarar Emisiones que Indica, Art. 2'},
+    {cat: 'Ministerio de Salud', name: 'Autorización Transporte Residuos No Peligrosos', value: 100 ,icon:'Transporte;Residuos;No Peligrosos', desc: 'D.S. Nº 148/2004, del Ministerio de Salud, Reglamento Sanitario Sobre Manejo de Residuos Peligrosos, Art.82/ Decreto Nº 594/1999, del Ministerio de Salud,Aprueba Reglamento Sobre Condiciones Sanitarias y Ambientales Básicas en los Lugares de Trabajo, Art. 19/ D.F.L. Nº 725/1967, del Ministerio de Salud Publica, Código Sanitario, Art. 81.'},
+    {cat: 'Ministerio de Agricultura', name: 'Autorización Disposición Madera de Embalaje', value: 100 ,icon:'Madera;de;Embalaje', desc: 'Resolución Exenta Nº 133/2005, del Ministerio de Agricultura, Establece Regulaciones Cuarentenarias para el  Ingreso de Embalajes de Madera.'},
+    {cat: 'Ministerio del Medio Ambiente', name: 'Consulta de Pertinencia', value: 100 ,icon:'Consulta;de;Pertinencia', desc: 'Decreto Nº 40/2012, del Ministerio de Medio Ambiente, Aprueba Reglamento del Sistema de Evaluacion de Impacto Ambiental, Art. 26. / Ley Nº 19.300/1994, del Ministerio Secretaría General de la Presidencia, Aprueba Ley Sobre Bases Generales del Medio Ambiente, Art. 8.'},
+    {cat: 'Ministerio de Transportes Y Telecomunicaciones', name: 'Certificación de Especificaciones Técnicas de la Infraestructura Física de la RIT', value: 100 ,icon:'RIT', desc: 'Decreto N°167/2018, del Ministerio de Transportes y Telecomunicaciones, que Reglamenta la Forma y Condiciones para Garantizar la Libre el ección en la Contratación y Recepción de Servicios de Telecomunicaciones en Loteos, Edificaciones y Copropiedad Inmobiliaria, Art. 21.'},
+    {cat: 'Ministerio del Medio Ambiente', name: 'Presentación Plan de Compensación de Emisiones', value: 100 ,icon:'Compensación;de;Emisiones I', desc: 'Ley N° 19.300/1994, del Ministerio Secretaría General de la Presidencia, Aprueba Ley Sobre Bases Generales del Medio Ambiente, Art. 45 H)'},
+    {cat: 'Ministerio de Vivienda Y Urbanismo', name: 'Permiso Instalación de Faenas', value: 100 ,icon:'Faenas', desc: 'Decreto Nº 47/1992, del Ministerio de Vivienda y Urbanismo, Ordenanza General de la Ley General de Urbanismo y Construcciones, Art. 5.1.3.'},
+    {cat: 'Ministerio de Vivienda Y Urbanismo', name: 'Permiso Excavación, Socalzado y Entibación ', value: 100 ,icon:'Excavación,;Socalzado;y Entibación ', desc: 'Decreto Nº 47/1992, del Ministerio de Vivienda y Urbanismo, Ordenanza General de la Ley General de Urbanismo y Construcciones, Art. 5.1.3.'},
+    {cat: 'Ministerio de Vivienda Y Urbanismo', name: 'Permiso Instalación Grúa', value: 100 ,icon:'Grúa', desc: 'Decreto Nº 47/1992, del Ministerio de Vivienda y Urbanismo, Ordenanza General de la Ley General de Urbanismo y Construcciones, Art. 5.1.3.'},
+    {cat: 'Ministerio del Medio Ambiente', name: 'Aviso de Ejecución Plan de Compensación de Emisiones', value: 100 ,icon:'Compensación;de;Emisiones II', desc: 'D.S Nº 66/2009, del Ministerio Secretaría General de la Presidencia, Revisa, Reformula y Actualiza Plan de Prevención y Descontaminación Atmosférica para la Región Metropolitana (PPDA), Art. 98.'},
+    {cat: 'Ministerio de Salud', name: 'Autorización Retiro y Manejo de Baños Químicos', value: 100 ,icon:'Baños;Químicos', desc: 'D.S. Nº 594/2000, del Ministerio de Salud, Reglamento Sobre Condiciones Sanitarias y Ambientales Básicas en los Lugares de Trabajo, Art. 24.'},
+    {cat: 'Ministerio de Obras Públicas', name: 'Autorización de Obras que Requieren Ocupación de Caminos Públicos', value: 100 ,icon:'Caminos;Públicos', desc: 'D.F.L 850/1997, del Ministerio de Obras Publicas, Fija el  Texto Refundido, Coordinado y Sistematizado de la Ley Nº 15.840, de 1964 y del Dfl. Nº 206, de 1960, Art. 36.'},
+    {cat: 'Ministerio del Medio Ambiente', name: 'Aviso Contingencias', value: 100 ,icon:'Aviso;Contingencias', desc: 'Ley Nº 20.417, del Ministerio Secretaría General de la Presidencia, Crea el  Ministerio, el  Servicio de Evaluación Ambiental y la Superintendencia del Medio Ambiente, Art. 2 y Art. 3, Letra D) y E).'},
+    {cat: 'Ministerio de Agricultura', name: 'Permiso para la Caza o Captura de Ejemplares de Animales de Especies Protegidas para Controlar la Acción de Animales que Causen Graves Perjuicios al Ecosistema (PAS 124)', value: 100 ,icon:'PAS 124', desc: 'Ley Nº 19.473/1996, del Ministerio de Agricultura, Sustituye Texto de la Ley Nº 4.601, Sobre Caza, y Artículo 609 del Código Civil, Art. 9.'},
+    {cat: 'Ministerio de Educación', name: 'Permiso para Hacer Excavaciones de Tipo Arqueológico, Antropológico y Paleontológico (PAS 132)', value: 100 ,icon:'PAS 132', desc: 'Ley Nº 17.288/1970, del Ministerio de Educación Pública, Legisla Sobre Monumentos Nacionales, Art. 22 y 23. / Decreto Nº 484/1990, del Ministerio de Educación, Reglamento de la Ley N° 17.288, Sobre Excavaciones y/o Prospecciones arqueológicass, Antropológicas y Paleontológicas, Art. 7, 8 y 9.'},];

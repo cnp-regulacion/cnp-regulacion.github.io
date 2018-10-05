@@ -634,6 +634,8 @@ function toggleGroup(grupo) {
             .container(d3.select(this))
             .valign("middle")
             .align("center")
+            .resize(true)
+            .size([0,16])
             .draw();
     });
 }

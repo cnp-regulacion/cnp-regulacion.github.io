@@ -56,7 +56,21 @@ d3.csv("flights.csv", function (error, flights) {
         .data(data.organismos)
         .enter()
         .append('tr')
-        .on('click', function (d,i) {
+        .on('click', function (d, i) {
+            var valores = d3.select('#tabla-valores')
+                .select('tbody')
+            valores.selectAll('tr').remove()
+            d.values.sort(function (a, b) {
+                return b.count - a.count
+            }).forEach(function (v) {
+                if (v.count > 0){
+                    var valor = valores.append('tr')
+                    valor.append('td')
+                        .text(v.carrier)
+                    valor.append('td')
+                        .text(v.count)
+                }
+            })
             d3.select('#title').text(d.key);
             d3.select('#tabla-valores').select('tbody').selectAll('tr')
                 .data(d.values)
@@ -96,7 +110,7 @@ d3.csv("flights.csv", function (error, flights) {
 
             // Add a label to the larger arcs, translated to the arc centroid and rotated.
             g.filter(function (d) {
-                return d.endAngle - d.startAngle > .2;
+                return d.endAngle - d.startAngle > .24;
             }).append("text")
                 .attr("dy", ".35em")
                 .attr("text-anchor", "middle")
@@ -108,21 +122,34 @@ d3.csv("flights.csv", function (error, flights) {
                 });
 
 
-
-
         })
         .append('a')
         .attr('href', '#')
         .text(function (d) {
             return d.key
         })
-        ;
+    ;
     var tipos = d3.select('#tabla-tipos');
     tipos.selectAll('tr')
         .data(data.tipos)
         .enter()
         .append('tr')
-        .on('click', function (d,i) {
+        .on('click', function (d, i) {
+            var valores = d3.select('#tabla-valores')
+                .select('tbody')
+            valores.selectAll('tr').remove()
+            d.values.sort(function (a, b) {
+                return b.count - a.count
+            }).forEach(function (v) {
+                if (v.count > 0){
+                    var valor = valores.append('tr')
+                    valor.append('td')
+                        .text(v.origin)
+                    valor.append('td')
+                        .text(v.count)
+                }
+            })
+
             d3.select('#title').text(d.key);
             var disp = [data.tipos[i]]
             d3.select("#chart").selectAll("div").remove()
@@ -167,8 +194,7 @@ d3.csv("flights.csv", function (error, flights) {
                     return "translate(" + arc.centroid(d) + ")rotate(" + angle(d) + ")";
                 })
                 .text(function (d) {
-
-                    return d.data.origin.slice(0,20);
+                    return d.data.origin.slice(0, 24);
                 });
 
         })

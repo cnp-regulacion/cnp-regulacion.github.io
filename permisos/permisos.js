@@ -52,10 +52,13 @@ d3.csv("flights.csv", function (error, flights) {
     }
 
     var organismos = d3.select('#tabla-organismos');
-    organismos.selectAll('tr')
+    organismos.selectAll('button')
         .data(data.organismos)
         .enter()
-        .append('tr')
+        .append('button').attr('class', 'btn btn-outline-info')
+        .text(function (d) {
+            return d.key
+        })
         .on('click', function (d, i) {
             var valores = d3.select('#tabla-valores')
                 .select('tbody')
@@ -123,17 +126,15 @@ d3.csv("flights.csv", function (error, flights) {
 
 
         })
-        .append('a')
-        .attr('href', '#')
+    ;
+    var tipos = d3.select('#tabla-tipos');
+    tipos.selectAll('button')
+        .data(data.tipos)
+        .enter()
+        .append('button').attr('class', 'btn btn-outline-info')
         .text(function (d) {
             return d.key
         })
-    ;
-    var tipos = d3.select('#tabla-tipos');
-    tipos.selectAll('tr')
-        .data(data.tipos)
-        .enter()
-        .append('tr')
         .on('click', function (d, i) {
             var valores = d3.select('#tabla-valores')
                 .select('tbody')
@@ -197,11 +198,6 @@ d3.csv("flights.csv", function (error, flights) {
                     return d.data.origin.slice(0, 24);
                 });
 
-        })
-        .append('a')
-        .attr('href', '#')
-        .text(function (d) {
-            return d.key
         });
 });
 

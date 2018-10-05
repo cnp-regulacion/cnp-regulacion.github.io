@@ -106,7 +106,7 @@ node.filter(d => !String(d.icon).includes('img/'))
     .enter()
     .append('tspan')
     .attr('x', 0)
-    .attr('y', (d, i, nodes) => (13 + (i - nodes.length / 2 - 0.5) * 10))
+    .attr('y', (d, i, nodes) => (19 + (i - nodes.length / 2 - 0.5) * 15))
     .text(name => name);
 
 // display image as circle icon
@@ -157,7 +157,7 @@ let legendSize = d3.legendSize()
 */
 let infoBox = node.append('foreignObject')
     .classed('circle-overlay hidden', true)
-    .attr('x', -200)
+    .attr('x', -250)
     .attr('y', -150)
     .attr('height', 400)
     .attr('width', 400)

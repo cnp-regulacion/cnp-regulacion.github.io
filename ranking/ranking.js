@@ -25,7 +25,7 @@ var tip = d3.tip()
         return "<strong>Permisos únicos:</strong> <span style='color:red'>" + d.frequency + "</span>";
     })
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#chart").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
@@ -87,15 +87,13 @@ function type(d) {
 }
 
 var tipos = d3.select('#table');
-tipos.selectAll('tr')
+tipos.selectAll('button')
     .data(datas)
     .enter()
-    .append('tr')
+    .append('button').attr('class', 'btn btn-outline-info')
     .on('click', function (d) {
         draw(d)
     })
-    .append('a')
-    .attr('href', '#')
     .text(function (d) {
         return d.name
     });

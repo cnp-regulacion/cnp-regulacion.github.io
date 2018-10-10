@@ -90,7 +90,7 @@ var tipos = d3.select('#table');
 tipos.selectAll('button')
     .data(datas)
     .enter()
-    .append('button').attr('class', 'btn btn-outline-info')
+    .append('button').attr('class', 'btn btn-primary')
     .on('click', function (d) {
         draw(d)
     })

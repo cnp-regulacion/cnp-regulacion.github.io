@@ -55,7 +55,7 @@ d3.csv("flights.csv", function (error, flights) {
     organismos.selectAll('button')
         .data(data.organismos)
         .enter()
-        .append('button').attr('class', 'btn btn-outline-info')
+        .append('button').attr('class', 'btn btn-primary')
         .text(function (d) {
             return d.key
         })
@@ -131,7 +131,7 @@ d3.csv("flights.csv", function (error, flights) {
     tipos.selectAll('button')
         .data(data.tipos)
         .enter()
-        .append('button').attr('class', 'btn btn-outline-info')
+        .append('button').attr('class', 'btn btn-primary')
         .text(function (d) {
             return d.key
         })

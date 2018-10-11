@@ -18,8 +18,13 @@ svg {
     stroke-width: 3px;
 }
 .actividad-critica {
-    fill: lightsalmon;
-    stroke: orangered;
+    fill: aliceblue;
+    stroke: steelblue;
+    stroke-width: 1px;
+}
+.blanco {
+    fill: white;
+    stroke: grey;
     stroke-width: 1px;
 }
 .actividad-critica-highlight {

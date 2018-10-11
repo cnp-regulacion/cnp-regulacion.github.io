@@ -1,11 +1,8 @@
-// Define the margin, radius, and color scale. Colors are assigned lazily, so
-// if you want deterministic behavior, define a domain for the color scale.
+
 var m = 50,
     r = 200,
     z = d3.scale.category20c();
 
-// Define a pie layout: the pie angle encodes the count of flights. Since our
-// data is stored in CSV, the counts are strings which we coerce to numbers.
 var pie = d3.layout.pie()
     .value(function (d) {
         return +d.count;
@@ -14,38 +11,25 @@ var pie = d3.layout.pie()
         return b.count - a.count;
     });
 
-// Define an arc generator. Note the radius is specified here, not the layout.
 var arc = d3.svg.arc()
     .innerRadius(0)
     .outerRadius(r);
 
-// Load the flight data asynchronously.
-d3.csv("flights.csv", function (error, flights) {
+d3.csv("data.csv", function (error, d) {
     if (error) throw error;
 
-    // Nest the flight data by originating airport. Our data has the counts per
-    // airport and carrier, but we want to group counts by aiport.
-    var airports = d3.nest()
-        .key(function (d) {
-            return d.origin;
-        })
-        .entries(flights);
     var data = {}
     data.organismos = d3.nest()
         .key(function (d) {
-            return d.origin;
+            return d.entidad;
         })
-        .entries(flights);
+        .entries(d);
     data.tipos = d3.nest()
         .key(function (d) {
-            return d.carrier;
+            return d.proyecto;
         })
-        .entries(flights);
-    console.log(data.tipos)
-    // Insert an svg element (with margin) for each airport in our dataset. A
-    // child g element translates the origin to the pie center.
+        .entries(d);
 
-    // Computes the label angle of an arc, converting from radians to degrees.
     function angle(d) {
         var a = (d.startAngle + d.endAngle) * 90 / Math.PI - 90;
         return a > 90 ? a - 180 : a;
@@ -69,7 +53,7 @@ d3.csv("flights.csv", function (error, flights) {
                 if (v.count > 0){
                     var valor = valores.append('tr')
                     valor.append('td')
-                        .text(v.carrier)
+                        .text(v.proyecto)
                     valor.append('td')
                         .text(v.count)
                 }
@@ -82,7 +66,7 @@ d3.csv("flights.csv", function (error, flights) {
             d3.select("#chart").selectAll("div").remove()
             var svg = d3.select("#chart").selectAll("div")
                 .data(disp)
-                .enter().append("div") // http://code.google.com/p/chromium/issues/detail?id=98951
+                .enter().append("div")
                 .style("display", "inline-block")
                 .style("width", (r + m) * 2 + "px")
                 .style("height", (r + m) * 2 + "px")
@@ -92,26 +76,22 @@ d3.csv("flights.csv", function (error, flights) {
                 .append("g")
                 .attr("transform", "translate(" + (r + m) + "," + (r + m) + ")");
 
-            // Pass the nested per-airport values to the pie layout. The layout computes
-            // the angles for each arc. Another g element will hold the arc and its label.
             var g = svg.selectAll("g")
                 .data(function (d) {
                     return pie(d.values);
                 })
                 .enter().append("g");
 
-            // Add a colored arc path, with a mouseover title showing the count.
             g.append("path")
                 .attr("d", arc)
                 .style("fill", function (d) {
-                    return z(d.data.carrier);
+                    return z(d.data.proyecto);
                 })
                 .append("title")
                 .text(function (d) {
-                    return d.data.carrier + ": " + d.data.count;
+                    return d.data.proyecto + ": " + d.data.count;
                 });
 
-            // Add a label to the larger arcs, translated to the arc centroid and rotated.
             g.filter(function (d) {
                 return d.endAngle - d.startAngle > .24;
             }).append("text")
@@ -121,7 +101,7 @@ d3.csv("flights.csv", function (error, flights) {
                     return "translate(" + arc.centroid(d) + ")rotate(" + angle(d) + ")";
                 })
                 .text(function (d) {
-                    return d.data.carrier;
+                    return d.data.proyecto;
                 });
 
 
@@ -145,7 +125,7 @@ d3.csv("flights.csv", function (error, flights) {
                 if (v.count > 0){
                     var valor = valores.append('tr')
                     valor.append('td')
-                        .text(v.origin)
+                        .text(v.entidad)
                     valor.append('td')
                         .text(v.count)
                 }
@@ -156,7 +136,7 @@ d3.csv("flights.csv", function (error, flights) {
             d3.select("#chart").selectAll("div").remove()
             var svg = d3.select("#chart").selectAll("div")
                 .data(disp)
-                .enter().append("div") // http://code.google.com/p/chromium/issues/detail?id=98951
+                .enter().append("div")
                 .style("display", "inline-block")
                 .style("width", (r + m) * 2 + "px")
                 .style("height", (r + m) * 2 + "px")
@@ -166,26 +146,22 @@ d3.csv("flights.csv", function (error, flights) {
                 .append("g")
                 .attr("transform", "translate(" + (r + m) + "," + (r + m) + ")");
 
-            // Pass the nested per-airport values to the pie layout. The layout computes
-            // the angles for each arc. Another g element will hold the arc and its label.
             var g = svg.selectAll("g")
                 .data(function (d) {
                     return pie(d.values);
                 })
                 .enter().append("g");
 
-            // Add a colored arc path, with a mouseover title showing the count.
             g.append("path")
                 .attr("d", arc)
                 .style("fill", function (d) {
-                    return z(d.data.origin);
+                    return z(d.data.entidad);
                 })
                 .append("title")
                 .text(function (d) {
-                    return d.data.origin + ": " + d.data.count;
+                    return d.data.entidad + ": " + d.data.count;
                 });
 
-            // Add a label to the larger arcs, translated to the arc centroid and rotated.
             g.filter(function (d) {
                 return d.endAngle - d.startAngle > .2;
             }).append("text")
@@ -195,7 +171,7 @@ d3.csv("flights.csv", function (error, flights) {
                     return "translate(" + arc.centroid(d) + ")rotate(" + angle(d) + ")";
                 })
                 .text(function (d) {
-                    return d.data.origin.slice(0, 24);
+                    return d.data.entidad.slice(0, 24);
                 });
 
         });

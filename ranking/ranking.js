@@ -35,7 +35,7 @@ svg.call(tip);
 
 var datas = [
     {
-        name: "Total",
+        name: "Todos",
         data: [
             {letter: 'Energía', frequency: 188},
             {letter: 'Industrias', frequency: 220},
@@ -90,7 +90,7 @@ var tipos = d3.select('#table');
 tipos.selectAll('button')
     .data(datas)
     .enter()
-    .append('button').attr('class', 'btn btn-primary')
+    .append('li').append('a')
     .on('click', function (d) {
         draw(d)
     })

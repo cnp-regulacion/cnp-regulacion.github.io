@@ -39,6 +39,10 @@
             font: 13px sans-serif;
         }
 
+        .tabla-valores {
+            font-size: 16px;
+        }
+
 
     </style>
 
@@ -120,34 +124,55 @@ FEATURES
 
 <section id="about" class="white-bg padding-top-bottom">
     <div class="">
+        <p>Los siguientes gráficos presentan los permisos otorgados por cada entidad, según dos perspectivas.</p>
 
+        <p>La primera perspectiva representa la cantidad de permisos que otorga cada entidad para
+            cada proyecto. La segunda perspectiva  muestra por cada proyecto, las entidades que participan del
+            otorgamiento de los permisos.</p>
+
+        <div class="row"></div>
+        <div class="col-md-2" id="organismos">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    Seleccione entidad <span class="caret"></span>
+                </button>
+                <ul id="tabla-organismos" class="dropdown-menu">
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-2" id="tipos">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    Seleccione proyecto <span class="caret"></span>
+                </button>
+                <ul id="tabla-tipos" class="dropdown-menu">
+                </ul>
+            </div>
+        </div>
 
         <div class="row">
-            <div class="col-md-2" id="organismos">
-                <div class="btn-group-vertical" id="tabla-organismos"></div>
+            <div class="col-md-12">
+                <h3 align="center" id="title"></h3>
+
             </div>
-            <div class="col-md-8 sticky-top align-self-start">
-                <h3 id="title"></h3>
-                <div class="row">
-                    <div class="col-md-6" id="chart"></div>
-                    <div class="col-md-6">
-                        <table class="table table-striped table-hover table-sm" id="tabla-valores">
-                            <thead>
-                            <tr>
-                                <th scope="col">Nombre</th>
-                                <th scope="col">Cantidad</th>
-                            </tr>
-                            </thead>
-                            <tbody>
+
+            <div class="col-md-6" id="chart"></div>
+            <div class="col-md-6">
+                <table class="table table-striped table-hover table-sm table-condensed tabla-valores"
+                       id="tabla-valores">
+                    <thead>
+                    <tr>
+                        <th align="center" scope="col" id="nombre">Nombre</th>
+                        <th align="center" scope="col" id="cantidad">Cantidad de permisos</th>
+                    </tr>
+                    </thead>
+                    <tbody>
 
 
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2" id="tipos">
-                <div class="btn-group-vertical" id="tabla-tipos"></div>
+                    </tbody>
+                </table>
             </div>
         </div>
 

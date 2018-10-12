@@ -36,14 +36,15 @@ d3.csv("data.csv", function (error, d) {
     }
 
     var organismos = d3.select('#tabla-organismos');
-    organismos.selectAll('button')
+    organismos.selectAll('li')
         .data(data.organismos)
         .enter()
-        .append('button').attr('class', 'btn btn-primary')
+        .append('li').append('a')
         .text(function (d) {
             return d.key
         })
         .on('click', function (d, i) {
+            d3.select('#nombre').text("Nombre Proyecto")
             var valores = d3.select('#tabla-valores')
                 .select('tbody')
             valores.selectAll('tr').remove()
@@ -108,14 +109,16 @@ d3.csv("data.csv", function (error, d) {
         })
     ;
     var tipos = d3.select('#tabla-tipos');
-    tipos.selectAll('button')
+    tipos.selectAll('li')
         .data(data.tipos)
         .enter()
-        .append('button').attr('class', 'btn btn-primary')
+        .append('li').append('a')
         .text(function (d) {
             return d.key
         })
         .on('click', function (d, i) {
+            d3.select('#nombre').text("Nombre Entidad")
+
             var valores = d3.select('#tabla-valores')
                 .select('tbody')
             valores.selectAll('tr').remove()

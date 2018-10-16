@@ -1,743 +1,742 @@
 entidad,proyecto,count
-BOMBEROS,Acuicola,2
-BOMBEROS,Agroindustria,2
-BOMBEROS,Aguas servidas,2
-BOMBEROS,Celulosa,2
-BOMBEROS,ERNC,2
-BOMBEROS,Gran Miner√≠a,2
-BOMBEROS,Hidro,2
-BOMBEROS,Hospitales,2
-BOMBEROS,Metro,2
-BOMBEROS,Planta desaladora,2
-BOMBEROS,Qu√≠micos,2
-BOMBEROS,Residencial,2
-BOMBEROS,Transmisi√≥n,0
-BOMBEROS,Vialidad,0
-CBR,Acuicola,0
-CBR,Agroindustria,0
-CBR,Aguas servidas,0
-CBR,Celulosa,0
-CBR,ERNC,0
-CBR,Gran Miner√≠a,0
-CBR,Hidro,0
-CBR,Hospitales,2
-CBR,Metro,0
-CBR,Planta desaladora,0
-CBR,Qu√≠micos,0
-CBR,Residencial,3
-CBR,Transmisi√≥n,0
-CBR,Vialidad,0
-CCHEN,Acuicola,0
-CCHEN,Agroindustria,0
-CCHEN,Aguas servidas,0
-CCHEN,Celulosa,0
-CCHEN,ERNC,0
-CCHEN,Gran Miner√≠a,2
-CCHEN,Hidro,0
-CCHEN,Hospitales,12
-CCHEN,Metro,0
-CCHEN,Planta desaladora,0
-CCHEN,Qu√≠micos,0
-CCHEN,Residencial,0
-CCHEN,Transmisi√≥n,1
-CCHEN,Vialidad,0
-CDE,Acuicola,0
-CDE,Agroindustria,0
-CDE,Aguas servidas,0
-CDE,Celulosa,0
-CDE,ERNC,0
-CDE,Gran Miner√≠a,0
-CDE,Hidro,0
-CDE,Hospitales,0
-CDE,Metro,1
-CDE,Planta desaladora,0
-CDE,Qu√≠micos,0
-CDE,Residencial,0
-CDE,Transmisi√≥n,0
-CDE,Vialidad,0
-CEN,Acuicola,1
-CEN,Agroindustria,0
-CEN,Aguas servidas,1
-CEN,Celulosa,1
-CEN,ERNC,2
-CEN,Gran Miner√≠a,1
-CEN,Hidro,2
-CEN,Hospitales,0
-CEN,Metro,0
-CEN,Planta desaladora,1
-CEN,Qu√≠micos,1
-CEN,Residencial,0
-CEN,Transmisi√≥n,2
-CEN,Vialidad,0
-CGR,Acuicola,0
-CGR,Agroindustria,0
-CGR,Aguas servidas,0
-CGR,Celulosa,0
-CGR,ERNC,0
-CGR,Gran Miner√≠a,0
-CGR,Hidro,0
-CGR,Hospitales,0
-CGR,Metro,0
-CGR,Planta desaladora,0
-CGR,Qu√≠micos,0
-CGR,Residencial,0
-CGR,Transmisi√≥n,0
-CGR,Vialidad,1
-CMN,Acuicola,5
-CMN,Agroindustria,7
-CMN,Aguas servidas,7
-CMN,Celulosa,7
-CMN,ERNC,5
-CMN,Gran Miner√≠a,5
-CMN,Hidro,5
-CMN,Hospitales,8
-CMN,Metro,8
-CMN,Planta desaladora,5
-CMN,Qu√≠micos,8
-CMN,Residencial,7
-CMN,Transmisi√≥n,6
-CMN,Vialidad,7
-CNE,Acuicola,1
-CNE,Agroindustria,0
-CNE,Aguas servidas,1
-CNE,Celulosa,1
-CNE,ERNC,3
-CNE,Gran Miner√≠a,1
-CNE,Hidro,3
-CNE,Hospitales,0
-CNE,Metro,0
-CNE,Planta desaladora,1
-CNE,Qu√≠micos,1
-CNE,Residencial,0
-CNE,Transmisi√≥n,3
-CNE,Vialidad,0
-CONADI,Acuicola,3
-CONADI,Agroindustria,4
-CONADI,Aguas servidas,2
-CONADI,Celulosa,3
-CONADI,ERNC,4
-CONADI,Gran Miner√≠a,4
-CONADI,Hidro,4
-CONADI,Hospitales,0
-CONADI,Metro,0
-CONADI,Planta desaladora,2
-CONADI,Qu√≠micos,0
-CONADI,Residencial,0
-CONADI,Transmisi√≥n,4
-CONADI,Vialidad,4
-CONAF,Acuicola,12
-CONAF,Agroindustria,10
-CONAF,Aguas servidas,14
-CONAF,Celulosa,13
-CONAF,ERNC,15
-CONAF,Gran Miner√≠a,14
-CONAF,Hidro,13
-CONAF,Hospitales,0
-CONAF,Metro,0
-CONAF,Planta desaladora,0
-CONAF,Qu√≠micos,0
-CONAF,Residencial,0
-CONAF,Transmisi√≥n,11
-CONAF,Vialidad,14
-DGA,Acuicola,6
-DGA,Agroindustria,4
-DGA,Aguas servidas,5
-DGA,Celulosa,6
-DGA,ERNC,9
-DGA,Gran Miner√≠a,15
-DGA,Hidro,11
-DGA,Hospitales,2
-DGA,Metro,2
-DGA,Planta desaladora,2
-DGA,Qu√≠micos,5
-DGA,Residencial,2
-DGA,Transmisi√≥n,4
-DGA,Vialidad,2
-DGAC,Acuicola,0
-DGAC,Agroindustria,1
-DGAC,Aguas servidas,0
-DGAC,Celulosa,1
-DGAC,ERNC,5
-DGAC,Gran Miner√≠a,4
-DGAC,Hidro,5
-DGAC,Hospitales,4
-DGAC,Metro,0
-DGAC,Planta desaladora,0
-DGAC,Qu√≠micos,0
-DGAC,Residencial,2
-DGAC,Transmisi√≥n,6
-DGAC,Vialidad,1
-DGMN,Acuicola,0
-DGMN,Agroindustria,0
-DGMN,Aguas servidas,9
-DGMN,Celulosa,9
-DGMN,ERNC,8
-DGMN,Gran Miner√≠a,9
-DGMN,Hidro,8
-DGMN,Hospitales,0
-DGMN,Metro,0
-DGMN,Planta desaladora,9
-DGMN,Qu√≠micos,12
-DGMN,Residencial,0
-DGMN,Transmisi√≥n,8
-DGMN,Vialidad,8
-DIFROL,Acuicola,0
-DIFROL,Agroindustria,0
-DIFROL,Aguas servidas,0
-DIFROL,Celulosa,0
-DIFROL,ERNC,0
-DIFROL,Gran Miner√≠a,2
-DIFROL,Hidro,1
-DIFROL,Hospitales,0
-DIFROL,Metro,0
-DIFROL,Planta desaladora,0
-DIFROL,Qu√≠micos,0
-DIFROL,Residencial,0
-DIFROL,Transmisi√≥n,1
-DIFROL,Vialidad,0
-DIPRES,Acuicola,0
-DIPRES,Agroindustria,0
-DIPRES,Aguas servidas,0
-DIPRES,Celulosa,0
-DIPRES,ERNC,0
-DIPRES,Gran Miner√≠a,0
-DIPRES,Hidro,0
-DIPRES,Hospitales,0
-DIPRES,Metro,1
-DIPRES,Planta desaladora,0
-DIPRES,Qu√≠micos,0
-DIPRES,Residencial,0
-DIPRES,Transmisi√≥n,0
-DIPRES,Vialidad,1
-DIRECCION DE VIALIDAD,Acuicola,7
-DIRECCION DE VIALIDAD,Agroindustria,6
-DIRECCION DE VIALIDAD,Aguas servidas,10
-DIRECCION DE VIALIDAD,Celulosa,5
-DIRECCION DE VIALIDAD,ERNC,9
-DIRECCION DE VIALIDAD,Gran Miner√≠a,10
-DIRECCION DE VIALIDAD,Hidro,9
-DIRECCION DE VIALIDAD,Hospitales,6
-DIRECCION DE VIALIDAD,Metro,8
-DIRECCION DE VIALIDAD,Planta desaladora,10
-DIRECCION DE VIALIDAD,Qu√≠micos,10
-DIRECCION DE VIALIDAD,Residencial,5
-DIRECCION DE VIALIDAD,Transmisi√≥n,8
-DIRECCION DE VIALIDAD,Vialidad,11
-DIRECCION DEL TRABAJO,Acuicola,2
-DIRECCION DEL TRABAJO,Agroindustria,2
-DIRECCION DEL TRABAJO,Aguas servidas,2
-DIRECCION DEL TRABAJO,Celulosa,2
-DIRECCION DEL TRABAJO,ERNC,2
-DIRECCION DEL TRABAJO,Gran Miner√≠a,2
-DIRECCION DEL TRABAJO,Hidro,2
-DIRECCION DEL TRABAJO,Hospitales,2
-DIRECCION DEL TRABAJO,Metro,2
-DIRECCION DEL TRABAJO,Planta desaladora,2
-DIRECCION DEL TRABAJO,Qu√≠micos,3
-DIRECCION DEL TRABAJO,Residencial,2
-DIRECCION DEL TRABAJO,Transmisi√≥n,2
-DIRECCION DEL TRABAJO,Vialidad,2
-DIRECTEMAR,Acuicola,2
-DIRECTEMAR,Agroindustria,1
-DIRECTEMAR,Aguas servidas,2
-DIRECTEMAR,Celulosa,2
-DIRECTEMAR,ERNC,0
-DIRECTEMAR,Gran Miner√≠a,3
-DIRECTEMAR,Hidro,0
-DIRECTEMAR,Hospitales,0
-DIRECTEMAR,Metro,0
-DIRECTEMAR,Planta desaladora,2
-DIRECTEMAR,Qu√≠micos,0
-DIRECTEMAR,Residencial,0
-DIRECTEMAR,Transmisi√≥n,0
-DIRECTEMAR,Vialidad,0
-DOH,Acuicola,0
-DOH,Agroindustria,0
-DOH,Aguas servidas,0
-DOH,Celulosa,0
-DOH,ERNC,0
-DOH,Gran Miner√≠a,0
-DOH,Hidro,0
-DOH,Hospitales,1
-DOH,Metro,1
-DOH,Planta desaladora,0
-DOH,Qu√≠micos,1
-DOH,Residencial,1
-DOH,Transmisi√≥n,0
-DOH,Vialidad,1
-DOM,Acuicola,13
-DOM,Agroindustria,13
-DOM,Aguas servidas,14
-DOM,Celulosa,12
-DOM,ERNC,13
-DOM,Gran Miner√≠a,12
-DOM,Hidro,12
-DOM,Hospitales,19
-DOM,Metro,6
-DOM,Planta desaladora,14
-DOM,Qu√≠micos,14
-DOM,Residencial,22
-DOM,Transmisi√≥n,12
-DOM,Vialidad,11
-EFE,Acuicola,0
-EFE,Agroindustria,0
-EFE,Aguas servidas,0
-EFE,Celulosa,2
-EFE,ERNC,1
-EFE,Gran Miner√≠a,1
-EFE,Hidro,1
-EFE,Hospitales,0
-EFE,Metro,0
-EFE,Planta desaladora,0
-EFE,Qu√≠micos,0
-EFE,Residencial,0
-EFE,Transmisi√≥n,1
-EFE,Vialidad,1
-EMPRESAS DE SERVICIOS,Acuicola,3
-EMPRESAS DE SERVICIOS,Agroindustria,3
-EMPRESAS DE SERVICIOS,Aguas servidas,3
-EMPRESAS DE SERVICIOS,Celulosa,3
-EMPRESAS DE SERVICIOS,ERNC,0
-EMPRESAS DE SERVICIOS,Gran Miner√≠a,0
-EMPRESAS DE SERVICIOS,Hidro,0
-EMPRESAS DE SERVICIOS,Hospitales,5
-EMPRESAS DE SERVICIOS,Metro,4
-EMPRESAS DE SERVICIOS,Planta desaladora,3
-EMPRESAS DE SERVICIOS,Qu√≠micos,3
-EMPRESAS DE SERVICIOS,Residencial,5
-EMPRESAS DE SERVICIOS,Transmisi√≥n,0
-EMPRESAS DE SERVICIOS,Vialidad,1
-GOBERNACION PROVINCIAL,Acuicola,0
-GOBERNACION PROVINCIAL,Agroindustria,0
-GOBERNACION PROVINCIAL,Aguas servidas,0
-GOBERNACION PROVINCIAL,Celulosa,0
-GOBERNACION PROVINCIAL,ERNC,0
-GOBERNACION PROVINCIAL,Gran Miner√≠a,1
-GOBERNACION PROVINCIAL,Hidro,0
-GOBERNACION PROVINCIAL,Hospitales,0
-GOBERNACION PROVINCIAL,Metro,0
-GOBERNACION PROVINCIAL,Planta desaladora,0
-GOBERNACION PROVINCIAL,Qu√≠micos,0
-GOBERNACION PROVINCIAL,Residencial,0
-GOBERNACION PROVINCIAL,Transmisi√≥n,0
-GOBERNACION PROVINCIAL,Vialidad,0
-MINISTERIO DE DEFENSA,Acuicola,1
-MINISTERIO DE DEFENSA,Agroindustria,0
-MINISTERIO DE DEFENSA,Aguas servidas,0
-MINISTERIO DE DEFENSA,Celulosa,1
-MINISTERIO DE DEFENSA,ERNC,0
-MINISTERIO DE DEFENSA,Gran Miner√≠a,2
-MINISTERIO DE DEFENSA,Hidro,0
-MINISTERIO DE DEFENSA,Hospitales,0
-MINISTERIO DE DEFENSA,Metro,0
-MINISTERIO DE DEFENSA,Planta desaladora,1
-MINISTERIO DE DEFENSA,Qu√≠micos,0
-MINISTERIO DE DEFENSA,Residencial,0
-MINISTERIO DE DEFENSA,Transmisi√≥n,0
-MINISTERIO DE DEFENSA,Vialidad,0
-MINISTERIO DE DESARROLLO SOCIAL,Acuicola,0
-MINISTERIO DE DESARROLLO SOCIAL,Agroindustria,0
-MINISTERIO DE DESARROLLO SOCIAL,Aguas servidas,0
-MINISTERIO DE DESARROLLO SOCIAL,Celulosa,0
-MINISTERIO DE DESARROLLO SOCIAL,ERNC,0
-MINISTERIO DE DESARROLLO SOCIAL,Gran Miner√≠a,0
-MINISTERIO DE DESARROLLO SOCIAL,Hidro,0
-MINISTERIO DE DESARROLLO SOCIAL,Hospitales,0
-MINISTERIO DE DESARROLLO SOCIAL,Metro,4
-MINISTERIO DE DESARROLLO SOCIAL,Planta desaladora,0
-MINISTERIO DE DESARROLLO SOCIAL,Qu√≠micos,0
-MINISTERIO DE DESARROLLO SOCIAL,Residencial,0
-MINISTERIO DE DESARROLLO SOCIAL,Transmisi√≥n,0
-MINISTERIO DE DESARROLLO SOCIAL,Vialidad,1
-MINISTERIO DE EDUCACION,Acuicola,0
-MINISTERIO DE EDUCACION,Agroindustria,0
-MINISTERIO DE EDUCACION,Aguas servidas,0
-MINISTERIO DE EDUCACION,Celulosa,0
-MINISTERIO DE EDUCACION,ERNC,0
-MINISTERIO DE EDUCACION,Gran Miner√≠a,0
-MINISTERIO DE EDUCACION,Hidro,0
-MINISTERIO DE EDUCACION,Hospitales,1
-MINISTERIO DE EDUCACION,Metro,0
-MINISTERIO DE EDUCACION,Planta desaladora,0
-MINISTERIO DE EDUCACION,Qu√≠micos,0
-MINISTERIO DE EDUCACION,Residencial,0
-MINISTERIO DE EDUCACION,Transmisi√≥n,0
-MINISTERIO DE EDUCACION,Vialidad,0
-MINISTERIO DE ENERGIA,Acuicola,0
-MINISTERIO DE ENERGIA,Agroindustria,0
-MINISTERIO DE ENERGIA,Aguas servidas,0
-MINISTERIO DE ENERGIA,Celulosa,2
-MINISTERIO DE ENERGIA,ERNC,2
-MINISTERIO DE ENERGIA,Gran Miner√≠a,2
-MINISTERIO DE ENERGIA,Hidro,2
-MINISTERIO DE ENERGIA,Hospitales,0
-MINISTERIO DE ENERGIA,Metro,0
-MINISTERIO DE ENERGIA,Planta desaladora,0
-MINISTERIO DE ENERGIA,Qu√≠micos,0
-MINISTERIO DE ENERGIA,Residencial,0
-MINISTERIO DE ENERGIA,Transmisi√≥n,4
-MINISTERIO DE ENERGIA,Vialidad,0
-MINISTERIO DE MINERIA,Acuicola,0
-MINISTERIO DE MINERIA,Agroindustria,0
-MINISTERIO DE MINERIA,Aguas servidas,0
-MINISTERIO DE MINERIA,Celulosa,0
-MINISTERIO DE MINERIA,ERNC,0
-MINISTERIO DE MINERIA,Gran Miner√≠a,2
-MINISTERIO DE MINERIA,Hidro,0
-MINISTERIO DE MINERIA,Hospitales,0
-MINISTERIO DE MINERIA,Metro,0
-MINISTERIO DE MINERIA,Planta desaladora,0
-MINISTERIO DE MINERIA,Qu√≠micos,0
-MINISTERIO DE MINERIA,Residencial,0
-MINISTERIO DE MINERIA,Transmisi√≥n,0
-MINISTERIO DE MINERIA,Vialidad,0
-MINISTERIO DE OBRAS PUBLICAS,Acuicola,0
-MINISTERIO DE OBRAS PUBLICAS,Agroindustria,0
-MINISTERIO DE OBRAS PUBLICAS,Aguas servidas,0
-MINISTERIO DE OBRAS PUBLICAS,Celulosa,0
-MINISTERIO DE OBRAS PUBLICAS,ERNC,0
-MINISTERIO DE OBRAS PUBLICAS,Gran Miner√≠a,0
-MINISTERIO DE OBRAS PUBLICAS,Hidro,0
-MINISTERIO DE OBRAS PUBLICAS,Hospitales,0
-MINISTERIO DE OBRAS PUBLICAS,Metro,1
-MINISTERIO DE OBRAS PUBLICAS,Planta desaladora,0
-MINISTERIO DE OBRAS PUBLICAS,Qu√≠micos,0
-MINISTERIO DE OBRAS PUBLICAS,Residencial,0
-MINISTERIO DE OBRAS PUBLICAS,Transmisi√≥n,0
-MINISTERIO DE OBRAS PUBLICAS,Vialidad,9
-MINVU/SEREMI MINVU,Acuicola,0
-MINVU/SEREMI MINVU,Agroindustria,1
-MINVU/SEREMI MINVU,Aguas servidas,1
-MINVU/SEREMI MINVU,Celulosa,0
-MINVU/SEREMI MINVU,ERNC,0
-MINVU/SEREMI MINVU,Gran Miner√≠a,0
-MINVU/SEREMI MINVU,Hidro,0
-MINVU/SEREMI MINVU,Hospitales,2
-MINVU/SEREMI MINVU,Metro,2
-MINVU/SEREMI MINVU,Planta desaladora,1
-MINVU/SEREMI MINVU,Qu√≠micos,2
-MINVU/SEREMI MINVU,Residencial,2
-MINVU/SEREMI MINVU,Transmisi√≥n,1
-MINVU/SEREMI MINVU,Vialidad,1
-MUNICIPALIDAD,Acuicola,4
-MUNICIPALIDAD,Agroindustria,3
-MUNICIPALIDAD,Aguas servidas,4
-MUNICIPALIDAD,Celulosa,3
-MUNICIPALIDAD,ERNC,4
-MUNICIPALIDAD,Gran Miner√≠a,3
-MUNICIPALIDAD,Hidro,4
-MUNICIPALIDAD,Hospitales,6
-MUNICIPALIDAD,Metro,5
-MUNICIPALIDAD,Planta desaladora,3
-MUNICIPALIDAD,Qu√≠micos,4
-MUNICIPALIDAD,Residencial,8
-MUNICIPALIDAD,Transmisi√≥n,4
-MUNICIPALIDAD,Vialidad,3
-ONEMI,Acuicola,0
-ONEMI,Agroindustria,0
-ONEMI,Aguas servidas,0
-ONEMI,Celulosa,0
-ONEMI,ERNC,0
-ONEMI,Gran Miner√≠a,0
-ONEMI,Hidro,0
-ONEMI,Hospitales,1
-ONEMI,Metro,0
-ONEMI,Planta desaladora,0
-ONEMI,Qu√≠micos,0
-ONEMI,Residencial,0
-ONEMI,Transmisi√≥n,0
-ONEMI,Vialidad,0
-ORGANIZACIONES DE CERTIFICACION,Acuicola,0
-ORGANIZACIONES DE CERTIFICACION,Agroindustria,0
-ORGANIZACIONES DE CERTIFICACION,Aguas servidas,0
-ORGANIZACIONES DE CERTIFICACION,Celulosa,0
-ORGANIZACIONES DE CERTIFICACION,ERNC,0
-ORGANIZACIONES DE CERTIFICACION,Gran Miner√≠a,0
-ORGANIZACIONES DE CERTIFICACION,Hidro,0
-ORGANIZACIONES DE CERTIFICACION,Hospitales,4
-ORGANIZACIONES DE CERTIFICACION,Metro,0
-ORGANIZACIONES DE CERTIFICACION,Planta desaladora,0
-ORGANIZACIONES DE CERTIFICACION,Qu√≠micos,0
-ORGANIZACIONES DE CERTIFICACION,Residencial,0
-ORGANIZACIONES DE CERTIFICACION,Transmisi√≥n,0
-ORGANIZACIONES DE CERTIFICACION,Vialidad,0
-PODER JUDICIAL,Acuicola,0
-PODER JUDICIAL,Agroindustria,0
-PODER JUDICIAL,Aguas servidas,0
-PODER JUDICIAL,Celulosa,1
-PODER JUDICIAL,ERNC,1
-PODER JUDICIAL,Gran Miner√≠a,2
-PODER JUDICIAL,Hidro,1
-PODER JUDICIAL,Hospitales,0
-PODER JUDICIAL,Metro,2
-PODER JUDICIAL,Planta desaladora,0
-PODER JUDICIAL,Qu√≠micos,0
-PODER JUDICIAL,Residencial,0
-PODER JUDICIAL,Transmisi√≥n,1
-PODER JUDICIAL,Vialidad,0
-SAG,Acuicola,10
-SAG,Agroindustria,7
-SAG,Aguas servidas,9
-SAG,Celulosa,9
-SAG,ERNC,9
-SAG,Gran Miner√≠a,9
-SAG,Hidro,9
-SAG,Hospitales,9
-SAG,Metro,7
-SAG,Planta desaladora,8
-SAG,Qu√≠micos,14
-SAG,Residencial,8
-SAG,Transmisi√≥n,9
-SAG,Vialidad,9
-SEA,Acuicola,2
-SEA,Agroindustria,2
-SEA,Aguas servidas,2
-SEA,Celulosa,2
-SEA,ERNC,2
-SEA,Gran Miner√≠a,2
-SEA,Hidro,2
-SEA,Hospitales,2
-SEA,Metro,2
-SEA,Planta desaladora,2
-SEA,Qu√≠micos,2
-SEA,Residencial,2
-SEA,Transmisi√≥n,2
-SEA,Vialidad,2
-SEC,Acuicola,10
-SEC,Agroindustria,9
-SEC,Aguas servidas,11
-SEC,Celulosa,11
-SEC,ERNC,14
-SEC,Gran Miner√≠a,8
-SEC,Hidro,12
-SEC,Hospitales,9
-SEC,Metro,6
-SEC,Planta desaladora,11
-SEC,Qu√≠micos,11
-SEC,Residencial,7
-SEC,Transmisi√≥n,10
-SEC,Vialidad,5
-SEREMI DE SALUD,Acuicola,38
-SEREMI DE SALUD,Agroindustria,38
-SEREMI DE SALUD,Aguas servidas,31
-SEREMI DE SALUD,Celulosa,46
-SEREMI DE SALUD,ERNC,40
-SEREMI DE SALUD,Gran Miner√≠a,45
-SEREMI DE SALUD,Hidro,36
-SEREMI DE SALUD,Hospitales,57
-SEREMI DE SALUD,Metro,34
-SEREMI DE SALUD,Planta desaladora,37
-SEREMI DE SALUD,Qu√≠micos,52
-SEREMI DE SALUD,Residencial,30
-SEREMI DE SALUD,Transmisi√≥n,34
-SEREMI DE SALUD,Vialidad,28
-SEREMI MMA/MMA,Acuicola,3
-SEREMI MMA/MMA,Agroindustria,2
-SEREMI MMA/MMA,Aguas servidas,3
-SEREMI MMA/MMA,Celulosa,3
-SEREMI MMA/MMA,ERNC,2
-SEREMI MMA/MMA,Gran Miner√≠a,2
-SEREMI MMA/MMA,Hidro,2
-SEREMI MMA/MMA,Hospitales,2
-SEREMI MMA/MMA,Metro,2
-SEREMI MMA/MMA,Planta desaladora,3
-SEREMI MMA/MMA,Qu√≠micos,2
-SEREMI MMA/MMA,Residencial,2
-SEREMI MMA/MMA,Transmisi√≥n,2
-SEREMI MMA/MMA,Vialidad,2
-SEREMI/ MINISTERIO DE BIENES NACIONALES,Acuicola,1
-SEREMI/ MINISTERIO DE BIENES NACIONALES,Agroindustria,1
-SEREMI/ MINISTERIO DE BIENES NACIONALES,Aguas servidas,1
-SEREMI/ MINISTERIO DE BIENES NACIONALES,Celulosa,2
-SEREMI/ MINISTERIO DE BIENES NACIONALES,ERNC,5
-SEREMI/ MINISTERIO DE BIENES NACIONALES,Gran Miner√≠a,1
-SEREMI/ MINISTERIO DE BIENES NACIONALES,Hidro,1
-SEREMI/ MINISTERIO DE BIENES NACIONALES,Hospitales,1
-SEREMI/ MINISTERIO DE BIENES NACIONALES,Metro,0
-SEREMI/ MINISTERIO DE BIENES NACIONALES,Planta desaladora,1
-SEREMI/ MINISTERIO DE BIENES NACIONALES,Qu√≠micos,1
-SEREMI/ MINISTERIO DE BIENES NACIONALES,Residencial,1
-SEREMI/ MINISTERIO DE BIENES NACIONALES,Transmisi√≥n,5
-SEREMI/ MINISTERIO DE BIENES NACIONALES,Vialidad,3
-SEREMITT,Acuicola,1
-SEREMITT,Agroindustria,1
-SEREMITT,Aguas servidas,1
-SEREMITT,Celulosa,1
-SEREMITT,ERNC,1
-SEREMITT,Gran Miner√≠a,1
-SEREMITT,Hidro,1
-SEREMITT,Hospitales,2
-SEREMITT,Metro,2
-SEREMITT,Planta desaladora,1
-SEREMITT,Qu√≠micos,0
-SEREMITT,Residencial,2
-SEREMITT,Transmisi√≥n,1
-SEREMITT,Vialidad,3
-SERNAGEOMIN,Acuicola,0
-SERNAGEOMIN,Agroindustria,0
-SERNAGEOMIN,Aguas servidas,0
-SERNAGEOMIN,Celulosa,0
-SERNAGEOMIN,ERNC,0
-SERNAGEOMIN,Gran Miner√≠a,25
-SERNAGEOMIN,Hidro,0
-SERNAGEOMIN,Hospitales,0
-SERNAGEOMIN,Metro,1
-SERNAGEOMIN,Planta desaladora,0
-SERNAGEOMIN,Qu√≠micos,0
-SERNAGEOMIN,Residencial,0
-SERNAGEOMIN,Transmisi√≥n,0
-SERNAGEOMIN,Vialidad,0
-SERVICIOS DE SALUD,Acuicola,0
-SERVICIOS DE SALUD,Agroindustria,0
-SERVICIOS DE SALUD,Aguas servidas,0
-SERVICIOS DE SALUD,Celulosa,0
-SERVICIOS DE SALUD,ERNC,0
-SERVICIOS DE SALUD,Gran Miner√≠a,0
-SERVICIOS DE SALUD,Hidro,0
-SERVICIOS DE SALUD,Hospitales,4
-SERVICIOS DE SALUD,Metro,0
-SERVICIOS DE SALUD,Planta desaladora,0
-SERVICIOS DE SALUD,Qu√≠micos,0
-SERVICIOS DE SALUD,Residencial,0
-SERVICIOS DE SALUD,Transmisi√≥n,0
-SERVICIOS DE SALUD,Vialidad,0
-SERVIU,Acuicola,0
-SERVIU,Agroindustria,0
-SERVIU,Aguas servidas,0
-SERVIU,Celulosa,0
-SERVIU,ERNC,2
-SERVIU,Gran Miner√≠a,0
-SERVIU,Hidro,0
-SERVIU,Hospitales,5
-SERVIU,Metro,6
-SERVIU,Planta desaladora,0
-SERVIU,Qu√≠micos,4
-SERVIU,Residencial,5
-SERVIU,Transmisi√≥n,0
-SERVIU,Vialidad,9
-SII,Acuicola,0
-SII,Agroindustria,0
-SII,Aguas servidas,0
-SII,Celulosa,0
-SII,ERNC,0
-SII,Gran Miner√≠a,0
-SII,Hidro,0
-SII,Hospitales,1
-SII,Metro,0
-SII,Planta desaladora,0
-SII,Qu√≠micos,0
-SII,Residencial,5
-SII,Transmisi√≥n,0
-SII,Vialidad,0
-SISS,Acuicola,1
-SISS,Agroindustria,1
-SISS,Aguas servidas,2
-SISS,Celulosa,1
-SISS,ERNC,0
-SISS,Gran Miner√≠a,1
-SISS,Hidro,0
-SISS,Hospitales,2
-SISS,Metro,0
-SISS,Planta desaladora,1
-SISS,Qu√≠micos,0
-SISS,Residencial,2
-SISS,Transmisi√≥n,0
-SISS,Vialidad,0
-SMA,Acuicola,6
-SMA,Agroindustria,6
-SMA,Aguas servidas,6
-SMA,Celulosa,6
-SMA,ERNC,5
-SMA,Gran Miner√≠a,6
-SMA,Hidro,5
-SMA,Hospitales,4
-SMA,Metro,4
-SMA,Planta desaladora,6
-SMA,Qu√≠micos,5
-SMA,Residencial,4
-SMA,Transmisi√≥n,4
-SMA,Vialidad,4
-SUBPESCA,Acuicola,4
-SUBPESCA,Agroindustria,0
-SUBPESCA,Aguas servidas,1
-SUBPESCA,Celulosa,1
-SUBPESCA,ERNC,1
-SUBPESCA,Gran Miner√≠a,2
-SUBPESCA,Hidro,2
-SUBPESCA,Hospitales,0
-SUBPESCA,Metro,0
-SUBPESCA,Planta desaladora,2
-SUBPESCA,Qu√≠micos,0
-SUBPESCA,Residencial,0
-SUBPESCA,Transmisi√≥n,0
-SUBPESCA,Vialidad,0
-SUBSECRETARIA DE FUERZAS ARMADAS,Acuicola,1
-SUBSECRETARIA DE FUERZAS ARMADAS,Agroindustria,0
-SUBSECRETARIA DE FUERZAS ARMADAS,Aguas servidas,0
-SUBSECRETARIA DE FUERZAS ARMADAS,Celulosa,0
-SUBSECRETARIA DE FUERZAS ARMADAS,ERNC,0
-SUBSECRETARIA DE FUERZAS ARMADAS,Gran Miner√≠a,0
-SUBSECRETARIA DE FUERZAS ARMADAS,Hidro,0
-SUBSECRETARIA DE FUERZAS ARMADAS,Hospitales,0
-SUBSECRETARIA DE FUERZAS ARMADAS,Metro,0
-SUBSECRETARIA DE FUERZAS ARMADAS,Planta desaladora,0
-SUBSECRETARIA DE FUERZAS ARMADAS,Qu√≠micos,0
-SUBSECRETARIA DE FUERZAS ARMADAS,Residencial,0
-SUBSECRETARIA DE FUERZAS ARMADAS,Transmisi√≥n,0
-SUBSECRETARIA DE FUERZAS ARMADAS,Vialidad,0
-SUBSECRETARIA DE REDES ASISTENCIALES,Acuicola,0
-SUBSECRETARIA DE REDES ASISTENCIALES,Agroindustria,0
-SUBSECRETARIA DE REDES ASISTENCIALES,Aguas servidas,0
-SUBSECRETARIA DE REDES ASISTENCIALES,Celulosa,0
-SUBSECRETARIA DE REDES ASISTENCIALES,ERNC,0
-SUBSECRETARIA DE REDES ASISTENCIALES,Gran Miner√≠a,0
-SUBSECRETARIA DE REDES ASISTENCIALES,Hidro,0
-SUBSECRETARIA DE REDES ASISTENCIALES,Hospitales,2
-SUBSECRETARIA DE REDES ASISTENCIALES,Metro,0
-SUBSECRETARIA DE REDES ASISTENCIALES,Planta desaladora,0
-SUBSECRETARIA DE REDES ASISTENCIALES,Qu√≠micos,0
-SUBSECRETARIA DE REDES ASISTENCIALES,Residencial,0
-SUBSECRETARIA DE REDES ASISTENCIALES,Transmisi√≥n,0
-SUBSECRETARIA DE REDES ASISTENCIALES,Vialidad,0
-SUBTEL,Acuicola,3
-SUBTEL,Agroindustria,3
-SUBTEL,Aguas servidas,3
-SUBTEL,Celulosa,3
-SUBTEL,ERNC,3
-SUBTEL,Gran Miner√≠a,3
-SUBTEL,Hidro,3
-SUBTEL,Hospitales,3
-SUBTEL,Metro,3
-SUBTEL,Planta desaladora,3
-SUBTEL,Qu√≠micos,3
-SUBTEL,Residencial,3
-SUBTEL,Transmisi√≥n,3
-SUBTEL,Vialidad,3
-TGR,Acuicola,0
-TGR,Agroindustria,0
-TGR,Aguas servidas,0
-TGR,Celulosa,0
-TGR,ERNC,0
-TGR,Gran Miner√≠a,0
-TGR,Hidro,0
-TGR,Hospitales,0
-TGR,Metro,0
-TGR,Planta desaladora,0
-TGR,Qu√≠micos,0
-TGR,Residencial,1
-TGR,Transmisi√≥n,0
-TGR,Vialidad,0
-UOCT,Acuicola,0
-UOCT,Agroindustria,0
-UOCT,Aguas servidas,0
-UOCT,Celulosa,0
-UOCT,ERNC,0
-UOCT,Gran Miner√≠a,0
-UOCT,Hidro,0
-UOCT,Hospitales,0
-UOCT,Metro,2
-UOCT,Planta desaladora,0
-UOCT,Qu√≠micos,0
-UOCT,Residencial,0
-UOCT,Transmisi√≥n,0
-UOCT,Vialidad,2
+Bomberos,Acuícola,2
+Bomberos,Agroindustria,2
+Bomberos,Aguas servidas,2
+Bomberos,Celulosa,2
+Bomberos,ERNC,2
+Bomberos,Gran Minería,2
+Bomberos,Hidro,2
+Bomberos,Hospitales,2
+Bomberos,Metro,2
+Bomberos,Planta Desaladora,2
+Bomberos,Químicos,2
+Bomberos,Residencial,2
+Bomberos,Transmisión,0
+Bomberos,Vialidad,0
+Conservador de Bienes Raíces (CBR),Acuícola,0
+Conservador de Bienes Raíces (CBR),Agroindustria,0
+Conservador de Bienes Raíces (CBR),Aguas servidas,0
+Conservador de Bienes Raíces (CBR),Celulosa,0
+Conservador de Bienes Raíces (CBR),ERNC,0
+Conservador de Bienes Raíces (CBR),Gran Minería,0
+Conservador de Bienes Raíces (CBR),Hidro,0
+Conservador de Bienes Raíces (CBR),Hospitales,2
+Conservador de Bienes Raíces (CBR),Metro,0
+Conservador de Bienes Raíces (CBR),Planta Desaladora,0
+Conservador de Bienes Raíces (CBR),Químicos,0
+Conservador de Bienes Raíces (CBR),Residencial,3
+Conservador de Bienes Raíces (CBR),Transmisión,0
+Conservador de Bienes Raíces (CBR),Vialidad,0
+Comisión Chilena de Energúa Nuclear (CCHEN),Acuícola,0
+Comisión Chilena de Energúa Nuclear (CCHEN),Agroindustria,0
+Comisión Chilena de Energúa Nuclear (CCHEN),Aguas servidas,0
+Comisión Chilena de Energúa Nuclear (CCHEN),Celulosa,0
+Comisión Chilena de Energúa Nuclear (CCHEN),ERNC,0
+Comisión Chilena de Energúa Nuclear (CCHEN),Gran Minería,2
+Comisión Chilena de Energúa Nuclear (CCHEN),Hidro,0
+Comisión Chilena de Energúa Nuclear (CCHEN),Hospitales,12
+Comisión Chilena de Energúa Nuclear (CCHEN),Metro,0
+Comisión Chilena de Energúa Nuclear (CCHEN),Planta Desaladora,0
+Comisión Chilena de Energúa Nuclear (CCHEN),Químicos,0
+Comisión Chilena de Energúa Nuclear (CCHEN),Residencial,0
+Comisión Chilena de Energúa Nuclear (CCHEN),Transmisión,1
+Comisión Chilena de Energúa Nuclear (CCHEN),Vialidad,0
+Consejo de Defensa del Estado (CDE),Acuícola,0
+Consejo de Defensa del Estado (CDE),Agroindustria,0
+Consejo de Defensa del Estado (CDE),Aguas servidas,0
+Consejo de Defensa del Estado (CDE),Celulosa,0
+Consejo de Defensa del Estado (CDE),ERNC,0
+Consejo de Defensa del Estado (CDE),Gran Minería,0
+Consejo de Defensa del Estado (CDE),Hidro,0
+Consejo de Defensa del Estado (CDE),Hospitales,0
+Consejo de Defensa del Estado (CDE),Metro,1
+Consejo de Defensa del Estado (CDE),Planta Desaladora,0
+Consejo de Defensa del Estado (CDE),Químicos,0
+Consejo de Defensa del Estado (CDE),Residencial,0
+Consejo de Defensa del Estado (CDE),Transmisión,0
+Consejo de Defensa del Estado (CDE),Vialidad,0
+Coordinador Eléctrico Nacional (CEN),Acuícola,1
+Coordinador Eléctrico Nacional (CEN),Agroindustria,0
+Coordinador Eléctrico Nacional (CEN),Aguas servidas,1
+Coordinador Eléctrico Nacional (CEN),Celulosa,1
+Coordinador Eléctrico Nacional (CEN),ERNC,2
+Coordinador Eléctrico Nacional (CEN),Gran Minería,1
+Coordinador Eléctrico Nacional (CEN),Hidro,2
+Coordinador Eléctrico Nacional (CEN),Hospitales,0
+Coordinador Eléctrico Nacional (CEN),Metro,0
+Coordinador Eléctrico Nacional (CEN),Planta Desaladora,1
+Coordinador Eléctrico Nacional (CEN),Químicos,1
+Coordinador Eléctrico Nacional (CEN),Residencial,0
+Coordinador Eléctrico Nacional (CEN),Transmisión,2
+Coordinador Eléctrico Nacional (CEN),Vialidad,0
+Contraloría General de la República,Acuícola,0
+Contraloría General de la República,Agroindustria,0
+Contraloría General de la República,Aguas servidas,0
+Contraloría General de la República,Celulosa,0
+Contraloría General de la República,ERNC,0
+Contraloría General de la República,Gran Minería,0
+Contraloría General de la República,Hidro,0
+Contraloría General de la República,Hospitales,0
+Contraloría General de la República,Metro,0
+Contraloría General de la República,Planta Desaladora,0
+Contraloría General de la República,Químicos,0
+Contraloría General de la República,Residencial,0
+Contraloría General de la República,Transmisión,0
+Contraloría General de la República,Vialidad,1
+Consejo de Monumentos Nacionales (CMN),Acuícola,5
+Consejo de Monumentos Nacionales (CMN),Agroindustria,7
+Consejo de Monumentos Nacionales (CMN),Aguas servidas,7
+Consejo de Monumentos Nacionales (CMN),Celulosa,7
+Consejo de Monumentos Nacionales (CMN),ERNC,5
+Consejo de Monumentos Nacionales (CMN),Gran Minería,5
+Consejo de Monumentos Nacionales (CMN),Hidro,5
+Consejo de Monumentos Nacionales (CMN),Hospitales,8
+Consejo de Monumentos Nacionales (CMN),Metro,8
+Consejo de Monumentos Nacionales (CMN),Planta Desaladora,5
+Consejo de Monumentos Nacionales (CMN),Químicos,8
+Consejo de Monumentos Nacionales (CMN),Residencial,7
+Consejo de Monumentos Nacionales (CMN),Transmisión,6
+Consejo de Monumentos Nacionales (CMN),Vialidad,7
+Comisión Nacional de Energía (CNE),Acuícola,1
+Comisión Nacional de Energía (CNE),Agroindustria,0
+Comisión Nacional de Energía (CNE),Aguas servidas,1
+Comisión Nacional de Energía (CNE),Celulosa,1
+Comisión Nacional de Energía (CNE),ERNC,3
+Comisión Nacional de Energía (CNE),Gran Minería,1
+Comisión Nacional de Energía (CNE),Hidro,3
+Comisión Nacional de Energía (CNE),Hospitales,0
+Comisión Nacional de Energía (CNE),Metro,0
+Comisión Nacional de Energía (CNE),Planta Desaladora,1
+Comisión Nacional de Energía (CNE),Químicos,1
+Comisión Nacional de Energía (CNE),Residencial,0
+Comisión Nacional de Energía (CNE),Transmisión,3
+Comisión Nacional de Energía (CNE),Vialidad,0
+Corporación Nacional de Desarrollo Indígena (CONADI),Acuícola,3
+Corporación Nacional de Desarrollo Indígena (CONADI),Agroindustria,4
+Corporación Nacional de Desarrollo Indígena (CONADI),Aguas servidas,2
+Corporación Nacional de Desarrollo Indígena (CONADI),Celulosa,3
+Corporación Nacional de Desarrollo Indígena (CONADI),ERNC,4
+Corporación Nacional de Desarrollo Indígena (CONADI),Gran Minería,4
+Corporación Nacional de Desarrollo Indígena (CONADI),Hidro,4
+Corporación Nacional de Desarrollo Indígena (CONADI),Hospitales,0
+Corporación Nacional de Desarrollo Indígena (CONADI),Metro,0
+Corporación Nacional de Desarrollo Indígena (CONADI),Planta Desaladora,2
+Corporación Nacional de Desarrollo Indígena (CONADI),Químicos,0
+Corporación Nacional de Desarrollo Indígena (CONADI),Residencial,0
+Corporación Nacional de Desarrollo Indígena (CONADI),Transmisión,4
+Corporación Nacional de Desarrollo Indígena (CONADI),Vialidad,4
+Corporación Nacional Forestal (CONAF),Acuícola,12
+Corporación Nacional Forestal (CONAF),Agroindustria,10
+Corporación Nacional Forestal (CONAF),Aguas servidas,14
+Corporación Nacional Forestal (CONAF),Celulosa,13
+Corporación Nacional Forestal (CONAF),ERNC,15
+Corporación Nacional Forestal (CONAF),Gran Minería,14
+Corporación Nacional Forestal (CONAF),Hidro,13
+Corporación Nacional Forestal (CONAF),Hospitales,0
+Corporación Nacional Forestal (CONAF),Metro,0
+Corporación Nacional Forestal (CONAF),Planta Desaladora,0
+Corporación Nacional Forestal (CONAF),Químicos,0
+Corporación Nacional Forestal (CONAF),Residencial,0
+Corporación Nacional Forestal (CONAF),Transmisión,11
+Corporación Nacional Forestal (CONAF),Vialidad,14
+Dirección General de Aguas (DGA),Acuícola,6
+Dirección General de Aguas (DGA),Agroindustria,4
+Dirección General de Aguas (DGA),Aguas servidas,5
+Dirección General de Aguas (DGA),Celulosa,6
+Dirección General de Aguas (DGA),ERNC,9
+Dirección General de Aguas (DGA),Gran Minería,15
+Dirección General de Aguas (DGA),Hidro,11
+Dirección General de Aguas (DGA),Hospitales,2
+Dirección General de Aguas (DGA),Metro,2
+Dirección General de Aguas (DGA),Planta Desaladora,2
+Dirección General de Aguas (DGA),Químicos,5
+Dirección General de Aguas (DGA),Residencial,2
+Dirección General de Aguas (DGA),Transmisión,4
+Dirección General de Aguas (DGA),Vialidad,2
+Dirección General de Aeronáutica Civil (DGAC),Acuícola,0
+Dirección General de Aeronáutica Civil (DGAC),Agroindustria,1
+Dirección General de Aeronáutica Civil (DGAC),Aguas servidas,0
+Dirección General de Aeronáutica Civil (DGAC),Celulosa,1
+Dirección General de Aeronáutica Civil (DGAC),ERNC,5
+Dirección General de Aeronáutica Civil (DGAC),Gran Minería,4
+Dirección General de Aeronáutica Civil (DGAC),Hidro,5
+Dirección General de Aeronáutica Civil (DGAC),Hospitales,4
+Dirección General de Aeronáutica Civil (DGAC),Metro,0
+Dirección General de Aeronáutica Civil (DGAC),Planta Desaladora,0
+Dirección General de Aeronáutica Civil (DGAC),Químicos,0
+Dirección General de Aeronáutica Civil (DGAC),Residencial,2
+Dirección General de Aeronáutica Civil (DGAC),Transmisión,6
+Dirección General de Aeronáutica Civil (DGAC),Vialidad,1
+Dirección General de Movilización Nacional (DGMN),Acuícola,0
+Dirección General de Movilización Nacional (DGMN),Agroindustria,0
+Dirección General de Movilización Nacional (DGMN),Aguas servidas,9
+Dirección General de Movilización Nacional (DGMN),Celulosa,9
+Dirección General de Movilización Nacional (DGMN),ERNC,8
+Dirección General de Movilización Nacional (DGMN),Gran Minería,9
+Dirección General de Movilización Nacional (DGMN),Hidro,8
+Dirección General de Movilización Nacional (DGMN),Hospitales,0
+Dirección General de Movilización Nacional (DGMN),Metro,0
+Dirección General de Movilización Nacional (DGMN),Planta Desaladora,9
+Dirección General de Movilización Nacional (DGMN),Químicos,12
+Dirección General de Movilización Nacional (DGMN),Residencial,0
+Dirección General de Movilización Nacional (DGMN),Transmisión,8
+Dirección General de Movilización Nacional (DGMN),Vialidad,8
+Dirección Nacional de Fronteras y Límites del Estado de Chile,Acuícola,0
+Dirección Nacional de Fronteras y Límites del Estado de Chile,Agroindustria,0
+Dirección Nacional de Fronteras y Límites del Estado de Chile,Aguas servidas,0
+Dirección Nacional de Fronteras y Límites del Estado de Chile,Celulosa,0
+Dirección Nacional de Fronteras y Límites del Estado de Chile,ERNC,0
+Dirección Nacional de Fronteras y Límites del Estado de Chile,Gran Minería,2
+Dirección Nacional de Fronteras y Límites del Estado de Chile,Hidro,1
+Dirección Nacional de Fronteras y Límites del Estado de Chile,Hospitales,0
+Dirección Nacional de Fronteras y Límites del Estado de Chile,Metro,0
+Dirección Nacional de Fronteras y Límites del Estado de Chile,Planta Desaladora,0
+Dirección Nacional de Fronteras y Límites del Estado de Chile,Químicos,0
+Dirección Nacional de Fronteras y Límites del Estado de Chile,Residencial,0
+Dirección Nacional de Fronteras y Límites del Estado de Chile,Transmisión,1
+Dirección Nacional de Fronteras y Límites del Estado de Chile,Vialidad,0
+Dirección de Presupuestos de Chile (DIPRES),Acuícola,0
+Dirección de Presupuestos de Chile (DIPRES),Agroindustria,0
+Dirección de Presupuestos de Chile (DIPRES),Aguas servidas,0
+Dirección de Presupuestos de Chile (DIPRES),Celulosa,0
+Dirección de Presupuestos de Chile (DIPRES),ERNC,0
+Dirección de Presupuestos de Chile (DIPRES),Gran Minería,0
+Dirección de Presupuestos de Chile (DIPRES),Hidro,0
+Dirección de Presupuestos de Chile (DIPRES),Hospitales,0
+Dirección de Presupuestos de Chile (DIPRES),Metro,1
+Dirección de Presupuestos de Chile (DIPRES),Planta Desaladora,0
+Dirección de Presupuestos de Chile (DIPRES),Químicos,0
+Dirección de Presupuestos de Chile (DIPRES),Residencial,0
+Dirección de Presupuestos de Chile (DIPRES),Transmisión,0
+Dirección de Presupuestos de Chile (DIPRES),Vialidad,1
+Dirección de Vialidad,Acuícola,7
+Dirección de Vialidad,Agroindustria,6
+Dirección de Vialidad,Aguas servidas,10
+Dirección de Vialidad,Celulosa,5
+Dirección de Vialidad,ERNC,9
+Dirección de Vialidad,Gran Minería,10
+Dirección de Vialidad,Hidro,9
+Dirección de Vialidad,Hospitales,6
+Dirección de Vialidad,Metro,8
+Dirección de Vialidad,Planta Desaladora,10
+Dirección de Vialidad,Químicos,10
+Dirección de Vialidad,Residencial,5
+Dirección de Vialidad,Transmisión,8
+Dirección de Vialidad,Vialidad,11
+Dirección del Trabajo (DT),Acuícola,2
+Dirección del Trabajo (DT),Agroindustria,2
+Dirección del Trabajo (DT),Aguas servidas,2
+Dirección del Trabajo (DT),Celulosa,2
+Dirección del Trabajo (DT),ERNC,2
+Dirección del Trabajo (DT),Gran Minería,2
+Dirección del Trabajo (DT),Hidro,2
+Dirección del Trabajo (DT),Hospitales,2
+Dirección del Trabajo (DT),Metro,2
+Dirección del Trabajo (DT),Planta Desaladora,2
+Dirección del Trabajo (DT),Químicos,3
+Dirección del Trabajo (DT),Residencial,2
+Dirección del Trabajo (DT),Transmisión,2
+Dirección del Trabajo (DT),Vialidad,2
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),Acuícola,2
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),Agroindustria,1
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),Aguas servidas,2
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),Celulosa,2
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),ERNC,0
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),Gran Minería,3
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),Hidro,0
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),Hospitales,0
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),Metro,0
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),Planta Desaladora,2
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),Químicos,0
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),Residencial,0
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),Transmisión,0
+Dirección General del Territorio Marítimo y de Marina Mercante (DIRECTEMAR),Vialidad,0
+Dirección de Obras Hidráulicas (DOH),Acuícola,0
+Dirección de Obras Hidráulicas (DOH),Agroindustria,0
+Dirección de Obras Hidráulicas (DOH),Aguas servidas,0
+Dirección de Obras Hidráulicas (DOH),Celulosa,0
+Dirección de Obras Hidráulicas (DOH),ERNC,0
+Dirección de Obras Hidráulicas (DOH),Gran Minería,0
+Dirección de Obras Hidráulicas (DOH),Hidro,0
+Dirección de Obras Hidráulicas (DOH),Hospitales,1
+Dirección de Obras Hidráulicas (DOH),Metro,1
+Dirección de Obras Hidráulicas (DOH),Planta Desaladora,0
+Dirección de Obras Hidráulicas (DOH),Químicos,1
+Dirección de Obras Hidráulicas (DOH),Residencial,1
+Dirección de Obras Hidráulicas (DOH),Transmisión,0
+Dirección de Obras Hidráulicas (DOH),Vialidad,1
+Direcciones de Obras Municipales (DOM),Agroindustria,13
+Direcciones de Obras Municipales (DOM),Aguas servidas,14
+Direcciones de Obras Municipales (DOM),Celulosa,12
+Direcciones de Obras Municipales (DOM),ERNC,13
+Direcciones de Obras Municipales (DOM),Gran Minería,12
+Direcciones de Obras Municipales (DOM),Hidro,12
+Direcciones de Obras Municipales (DOM),Hospitales,19
+Direcciones de Obras Municipales (DOM),Metro,6
+Direcciones de Obras Municipales (DOM),Planta Desaladora,14
+Direcciones de Obras Municipales (DOM),Químicos,14
+Direcciones de Obras Municipales (DOM),Residencial,22
+Direcciones de Obras Municipales (DOM),Transmisión,12
+Direcciones de Obras Municipales (DOM),Vialidad,11
+Empresa de los Ferrocarriles del Estado (EFE),Acuícola,0
+Empresa de los Ferrocarriles del Estado (EFE),Agroindustria,0
+Empresa de los Ferrocarriles del Estado (EFE),Aguas servidas,0
+Empresa de los Ferrocarriles del Estado (EFE),Celulosa,2
+Empresa de los Ferrocarriles del Estado (EFE),ERNC,1
+Empresa de los Ferrocarriles del Estado (EFE),Gran Minería,1
+Empresa de los Ferrocarriles del Estado (EFE),Hidro,1
+Empresa de los Ferrocarriles del Estado (EFE),Hospitales,0
+Empresa de los Ferrocarriles del Estado (EFE),Metro,0
+Empresa de los Ferrocarriles del Estado (EFE),Planta Desaladora,0
+Empresa de los Ferrocarriles del Estado (EFE),Químicos,0
+Empresa de los Ferrocarriles del Estado (EFE),Residencial,0
+Empresa de los Ferrocarriles del Estado (EFE),Transmisión,1
+Empresa de los Ferrocarriles del Estado (EFE),Vialidad,1
+Empresas de Servicios,Acuícola,3
+Empresas de Servicios,Agroindustria,3
+Empresas de Servicios,Aguas servidas,3
+Empresas de Servicios,Celulosa,3
+Empresas de Servicios,ERNC,0
+Empresas de Servicios,Gran Minería,0
+Empresas de Servicios,Hidro,0
+Empresas de Servicios,Hospitales,5
+Empresas de Servicios,Metro,4
+Empresas de Servicios,Planta Desaladora,3
+Empresas de Servicios,Químicos,3
+Empresas de Servicios,Residencial,5
+Empresas de Servicios,Transmisión,0
+Empresas de Servicios,Vialidad,1
+Gobernación Provincial,Acuícola,0
+Gobernación Provincial,Agroindustria,0
+Gobernación Provincial,Aguas servidas,0
+Gobernación Provincial,Celulosa,0
+Gobernación Provincial,ERNC,0
+Gobernación Provincial,Gran Minería,1
+Gobernación Provincial,Hidro,0
+Gobernación Provincial,Hospitales,0
+Gobernación Provincial,Metro,0
+Gobernación Provincial,Planta Desaladora,0
+Gobernación Provincial,Químicos,0
+Gobernación Provincial,Residencial,0
+Gobernación Provincial,Transmisión,0
+Gobernación Provincial,Vialidad,0
+Ministerio de Defensa,Acuícola,1
+Ministerio de Defensa,Agroindustria,0
+Ministerio de Defensa,Aguas servidas,0
+Ministerio de Defensa,Celulosa,1
+Ministerio de Defensa,ERNC,0
+Ministerio de Defensa,Gran Minería,2
+Ministerio de Defensa,Hidro,0
+Ministerio de Defensa,Hospitales,0
+Ministerio de Defensa,Metro,0
+Ministerio de Defensa,Planta Desaladora,1
+Ministerio de Defensa,Químicos,0
+Ministerio de Defensa,Residencial,0
+Ministerio de Defensa,Transmisión,0
+Ministerio de Defensa,Vialidad,0
+Ministerio de Desarrollo Social,Acuícola,0
+Ministerio de Desarrollo Social,Agroindustria,0
+Ministerio de Desarrollo Social,Aguas servidas,0
+Ministerio de Desarrollo Social,Celulosa,0
+Ministerio de Desarrollo Social,ERNC,0
+Ministerio de Desarrollo Social,Gran Minería,0
+Ministerio de Desarrollo Social,Hidro,0
+Ministerio de Desarrollo Social,Hospitales,0
+Ministerio de Desarrollo Social,Metro,4
+Ministerio de Desarrollo Social,Planta Desaladora,0
+Ministerio de Desarrollo Social,Químicos,0
+Ministerio de Desarrollo Social,Residencial,0
+Ministerio de Desarrollo Social,Transmisión,0
+Ministerio de Desarrollo Social,Vialidad,1
+Ministerio de Educación (MINEDUC),Acuícola,0
+Ministerio de Educación (MINEDUC),Agroindustria,0
+Ministerio de Educación (MINEDUC),Aguas servidas,0
+Ministerio de Educación (MINEDUC),Celulosa,0
+Ministerio de Educación (MINEDUC),ERNC,0
+Ministerio de Educación (MINEDUC),Gran Minería,0
+Ministerio de Educación (MINEDUC),Hidro,0
+Ministerio de Educación (MINEDUC),Hospitales,1
+Ministerio de Educación (MINEDUC),Metro,0
+Ministerio de Educación (MINEDUC),Planta Desaladora,0
+Ministerio de Educación (MINEDUC),Químicos,0
+Ministerio de Educación (MINEDUC),Residencial,0
+Ministerio de Educación (MINEDUC),Transmisión,0
+Ministerio de Educación (MINEDUC),Vialidad,0
+Ministerio de Energía (MINERGIA),Acuícola,0
+Ministerio de Energía (MINERGIA),Agroindustria,0
+Ministerio de Energía (MINERGIA),Aguas servidas,0
+Ministerio de Energía (MINERGIA),Celulosa,2
+Ministerio de Energía (MINERGIA),ERNC,2
+Ministerio de Energía (MINERGIA),Gran Minería,2
+Ministerio de Energía (MINERGIA),Hidro,2
+Ministerio de Energía (MINERGIA),Hospitales,0
+Ministerio de Energía (MINERGIA),Metro,0
+Ministerio de Energía (MINERGIA),Planta Desaladora,0
+Ministerio de Energía (MINERGIA),Químicos,0
+Ministerio de Energía (MINERGIA),Residencial,0
+Ministerio de Energía (MINERGIA),Transmisión,4
+Ministerio de Energía (MINERGIA),Vialidad,0
+Ministerio de Minería (MINMINERIA),Acuícola,0
+Ministerio de Minería (MINMINERIA),Agroindustria,0
+Ministerio de Minería (MINMINERIA),Aguas servidas,0
+Ministerio de Minería (MINMINERIA),Celulosa,0
+Ministerio de Minería (MINMINERIA),ERNC,0
+Ministerio de Minería (MINMINERIA),Gran Minería,2
+Ministerio de Minería (MINMINERIA),Hidro,0
+Ministerio de Minería (MINMINERIA),Hospitales,0
+Ministerio de Minería (MINMINERIA),Metro,0
+Ministerio de Minería (MINMINERIA),Planta Desaladora,0
+Ministerio de Minería (MINMINERIA),Químicos,0
+Ministerio de Minería (MINMINERIA),Residencial,0
+Ministerio de Minería (MINMINERIA),Transmisión,0
+Ministerio de Minería (MINMINERIA),Vialidad,0
+Ministerio de Obras Públicas (MOP),Acuícola,0
+Ministerio de Obras Públicas (MOP),Agroindustria,0
+Ministerio de Obras Públicas (MOP),Aguas servidas,0
+Ministerio de Obras Públicas (MOP),Celulosa,0
+Ministerio de Obras Públicas (MOP),ERNC,0
+Ministerio de Obras Públicas (MOP),Gran Minería,0
+Ministerio de Obras Públicas (MOP),Hidro,0
+Ministerio de Obras Públicas (MOP),Hospitales,0
+Ministerio de Obras Públicas (MOP),Metro,1
+Ministerio de Obras Públicas (MOP),Planta Desaladora,0
+Ministerio de Obras Públicas (MOP),Químicos,0
+Ministerio de Obras Públicas (MOP),Residencial,0
+Ministerio de Obras Públicas (MOP),Transmisión,0
+Ministerio de Obras Públicas (MOP),Vialidad,9
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),Acuícola,0
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),Agroindustria,1
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),Aguas servidas,1
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),Celulosa,0
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),ERNC,0
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),Gran Minería,0
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),Hidro,0
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),Hospitales,2
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),Metro,2
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),Planta Desaladora,1
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),Químicos,2
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),Residencial,2
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),Transmisión,1
+Ministerio y Seremi de Vivienda y Urbanismo (MINVU),Vialidad,1
+MunicipalidadesAcuícola,4
+Municipalidades,Agroindustria,3
+Municipalidades,Aguas servidas,4
+Municipalidades,Celulosa,3
+Municipalidades,ERNC,4
+Municipalidades,Gran Minería,3
+Municipalidades,Hidro,4
+Municipalidades,Hospitales,6
+Municipalidades,Metro,5
+Municipalidades,Planta Desaladora,3
+Municipalidades,Químicos,4
+Municipalidades,Residencial,8
+Municipalidades,Transmisión,4
+Municipalidades,Vialidad,3
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),Acuícola,0
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),Agroindustria,0
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),Aguas servidas,0
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),Celulosa,0
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),ERNC,0
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),Gran Minería,0
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),Hidro,0
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),Hospitales,1
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),Metro,0
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),Planta Desaladora,0
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),Químicos,0
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),Residencial,0
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),Transmisión,0
+Oficina Nacional de Emergencia del Ministerio del Interior (ONEMI),Vialidad,0
+Organizaciones de Certificación,Acuícola,0
+Organizaciones de Certificación,Agroindustria,0
+Organizaciones de Certificación,Aguas servidas,0
+Organizaciones de Certificación,Celulosa,0
+Organizaciones de Certificación,ERNC,0
+Organizaciones de Certificación,Gran Minería,0
+Organizaciones de Certificación,Hidro,0
+Organizaciones de Certificación,Hospitales,4
+Organizaciones de Certificación,Metro,0
+Organizaciones de Certificación,Planta Desaladora,0
+Organizaciones de Certificación,Químicos,0
+Organizaciones de Certificación,Residencial,0
+Organizaciones de Certificación,Transmisión,0
+Organizaciones de Certificación,Vialidad,0
+Poder Judicial,Acuícola,0
+Poder Judicial,Agroindustria,0
+Poder Judicial,Aguas servidas,0
+Poder Judicial,Celulosa,1
+Poder Judicial,ERNC,1
+Poder Judicial,Gran Minería,2
+Poder Judicial,Hidro,1
+Poder Judicial,Hospitales,0
+Poder Judicial,Metro,2
+Poder Judicial,Planta Desaladora,0
+Poder Judicial,Químicos,0
+Poder Judicial,Residencial,0
+Poder Judicial,Transmisión,1
+Poder Judicial,Vialidad,0
+Servicio Agrícola y Ganadero (SAG),Acuícola,10
+Servicio Agrícola y Ganadero (SAG),Agroindustria,7
+Servicio Agrícola y Ganadero (SAG),Aguas servidas,9
+Servicio Agrícola y Ganadero (SAG),Celulosa,9
+Servicio Agrícola y Ganadero (SAG),ERNC,9
+Servicio Agrícola y Ganadero (SAG),Gran Minería,9
+Servicio Agrícola y Ganadero (SAG),Hidro,9
+Servicio Agrícola y Ganadero (SAG),Hospitales,9
+Servicio Agrícola y Ganadero (SAG),Metro,7
+Servicio Agrícola y Ganadero (SAG),Planta Desaladora,8
+Servicio Agrícola y Ganadero (SAG),Químicos,14
+Servicio Agrícola y Ganadero (SAG),Residencial,8
+Servicio Agrícola y Ganadero (SAG),Transmisión,9
+Servicio Agrícola y Ganadero (SAG),Vialidad,9
+Servicio de Evaluación Ambiental (SEA),Acuícola,2
+Servicio de Evaluación Ambiental (SEA),Agroindustria,2
+Servicio de Evaluación Ambiental (SEA),Aguas servidas,2
+Servicio de Evaluación Ambiental (SEA),Celulosa,2
+Servicio de Evaluación Ambiental (SEA),ERNC,2
+Servicio de Evaluación Ambiental (SEA),Gran Minería,2
+Servicio de Evaluación Ambiental (SEA),Hidro,2
+Servicio de Evaluación Ambiental (SEA),Hospitales,2
+Servicio de Evaluación Ambiental (SEA),Metro,2
+Servicio de Evaluación Ambiental (SEA),Planta Desaladora,2
+Servicio de Evaluación Ambiental (SEA),Químicos,2
+Servicio de Evaluación Ambiental (SEA),Residencial,2
+Servicio de Evaluación Ambiental (SEA),Transmisión,2
+Servicio de Evaluación Ambiental (SEA),Vialidad,2
+Superintendencia de Electricidad y Combustibles (SEC),Acuícola,10
+Superintendencia de Electricidad y Combustibles (SEC),Agroindustria,9
+Superintendencia de Electricidad y Combustibles (SEC),Aguas servidas,11
+Superintendencia de Electricidad y Combustibles (SEC),Celulosa,11
+Superintendencia de Electricidad y Combustibles (SEC),ERNC,14
+Superintendencia de Electricidad y Combustibles (SEC),Gran Minería,8
+Superintendencia de Electricidad y Combustibles (SEC),Hidro,12
+Superintendencia de Electricidad y Combustibles (SEC),Hospitales,9
+Superintendencia de Electricidad y Combustibles (SEC),Metro,6
+Superintendencia de Electricidad y Combustibles (SEC),Planta Desaladora,11
+Superintendencia de Electricidad y Combustibles (SEC),Químicos,11
+Superintendencia de Electricidad y Combustibles (SEC),Residencial,7
+Superintendencia de Electricidad y Combustibles (SEC),Transmisión,10
+Superintendencia de Electricidad y Combustibles (SEC),Vialidad,5
+Seremi de Salud,Acuícola,38
+Seremi de Salud,Agroindustria,38
+Seremi de Salud,Aguas servidas,31
+Seremi de Salud,Celulosa,46
+Seremi de Salud,ERNC,40
+Seremi de Salud,Gran Minería,45
+Seremi de Salud,Hidro,36
+Seremi de Salud,Hospitales,57
+Seremi de Salud,Metro,34
+Seremi de Salud,Planta Desaladora,37
+Seremi de Salud,Químicos,52
+Seremi de Salud,Residencial,30
+Seremi de Salud,Transmisión,34
+Seremi de Salud,Vialidad,28
+Seremi y Ministerio del Medio Ambiente (MMA),Acuícola,3
+Seremi y Ministerio del Medio Ambiente (MMA),Agroindustria,2
+Seremi y Ministerio del Medio Ambiente (MMA),Aguas servidas,3
+Seremi y Ministerio del Medio Ambiente (MMA),Celulosa,3
+Seremi y Ministerio del Medio Ambiente (MMA),ERNC,2
+Seremi y Ministerio del Medio Ambiente (MMA),Gran Minería,2
+Seremi y Ministerio del Medio Ambiente (MMA),Hidro,2
+Seremi y Ministerio del Medio Ambiente (MMA),Hospitales,2
+Seremi y Ministerio del Medio Ambiente (MMA),Metro,2
+Seremi y Ministerio del Medio Ambiente (MMA),Planta Desaladora,3
+Seremi y Ministerio del Medio Ambiente (MMA),Químicos,2
+Seremi y Ministerio del Medio Ambiente (MMA),Residencial,2
+Seremi y Ministerio del Medio Ambiente (MMA),Transmisión,2
+Seremi y Ministerio del Medio Ambiente (MMA),Vialidad,2
+Seremi y Ministerio de Bienes Nacionales (BBNN),Acuícola,1
+Seremi y Ministerio de Bienes Nacionales (BBNN),Agroindustria,1
+Seremi y Ministerio de Bienes Nacionales (BBNN),Aguas servidas,1
+Seremi y Ministerio de Bienes Nacionales (BBNN),Celulosa,2
+Seremi y Ministerio de Bienes Nacionales (BBNN),ERNC,5
+Seremi y Ministerio de Bienes Nacionales (BBNN),Gran Minería,1
+Seremi y Ministerio de Bienes Nacionales (BBNN),Hidro,1
+Seremi y Ministerio de Bienes Nacionales (BBNN),Hospitales,1
+Seremi y Ministerio de Bienes Nacionales (BBNN),Metro,0
+Seremi y Ministerio de Bienes Nacionales (BBNN),Planta Desaladora,1
+Seremi y Ministerio de Bienes Nacionales (BBNN),Químicos,1
+Seremi y Ministerio de Bienes Nacionales (BBNN),Residencial,1
+Seremi y Ministerio de Bienes Nacionales (BBNN),Transmisión,5
+Seremi y Ministerio de Bienes Nacionales (BBNN),Vialidad,3
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),Acuícola,1
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),Agroindustria,1
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),Aguas servidas,1
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),Celulosa,1
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),ERNC,1
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),Gran Minería,1
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),Hidro,1
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),Hospitales,2
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),Metro,2
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),Planta Desaladora,1
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),Químicos,0
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),Residencial,2
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),Transmisión,1
+Secretaría Ministerial de Transportes y Telecomunicaciones (SEREMITT),Vialidad,3
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),Acuícola,0
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),Agroindustria,0
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),Aguas servidas,0
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),Celulosa,0
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),ERNC,0
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),Gran Minería,25
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),Hidro,0
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),Hospitales,0
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),Metro,1
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),Planta Desaladora,0
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),Químicos,0
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),Residencial,0
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),Transmisión,0
+Servicio Nacional de Geología y Minería (SERNAGEOMIN),Vialidad,0
+Servicios de Salud,Acuícola,0
+Servicios de Salud,Agroindustria,0
+Servicios de Salud,Aguas servidas,0
+Servicios de Salud,Celulosa,0
+Servicios de Salud,ERNC,0
+Servicios de Salud,Gran Minería,0
+Servicios de Salud,Hidro,0
+Servicios de Salud,Hospitales,4
+Servicios de Salud,Metro,0
+Servicios de Salud,Planta Desaladora,0
+Servicios de Salud,Químicos,0
+Servicios de Salud,Residencial,0
+Servicios de Salud,Transmisión,0
+Servicios de Salud,Vialidad,0
+Servicio de Vivienda y Urbanismo (SERVIU),Acuícola,0
+Servicio de Vivienda y Urbanismo (SERVIU),Agroindustria,0
+Servicio de Vivienda y Urbanismo (SERVIU),Aguas servidas,0
+Servicio de Vivienda y Urbanismo (SERVIU),Celulosa,0
+Servicio de Vivienda y Urbanismo (SERVIU),ERNC,2
+Servicio de Vivienda y Urbanismo (SERVIU),Gran Minería,0
+Servicio de Vivienda y Urbanismo (SERVIU),Hidro,0
+Servicio de Vivienda y Urbanismo (SERVIU),Hospitales,5
+Servicio de Vivienda y Urbanismo (SERVIU),Metro,6
+Servicio de Vivienda y Urbanismo (SERVIU),Planta Desaladora,0
+Servicio de Vivienda y Urbanismo (SERVIU),Químicos,4
+Servicio de Vivienda y Urbanismo (SERVIU),Residencial,5
+Servicio de Vivienda y Urbanismo (SERVIU),Transmisión,0
+Servicio de Vivienda y Urbanismo (SERVIU),Vialidad,9
+Servicio de Impuestos Internos (SII),Acuícola,0
+Servicio de Impuestos Internos (SII),Agroindustria,0
+Servicio de Impuestos Internos (SII),Aguas servidas,0
+Servicio de Impuestos Internos (SII),Celulosa,0
+Servicio de Impuestos Internos (SII),ERNC,0
+Servicio de Impuestos Internos (SII),Gran Minería,0
+Servicio de Impuestos Internos (SII),Hidro,0
+Servicio de Impuestos Internos (SII),Hospitales,1
+Servicio de Impuestos Internos (SII),Metro,0
+Servicio de Impuestos Internos (SII),Planta Desaladora,0
+Servicio de Impuestos Internos (SII),Químicos,0
+Servicio de Impuestos Internos (SII),Residencial,5
+Servicio de Impuestos Internos (SII),Transmisión,0
+Servicio de Impuestos Internos (SII),Vialidad,0
+Superintendencia de Servicios Sanitarios (SISS),Acuícola,1
+Superintendencia de Servicios Sanitarios (SISS),Agroindustria,1
+Superintendencia de Servicios Sanitarios (SISS),Aguas servidas,2
+Superintendencia de Servicios Sanitarios (SISS),Celulosa,1
+Superintendencia de Servicios Sanitarios (SISS),ERNC,0
+Superintendencia de Servicios Sanitarios (SISS),Gran Minería,1
+Superintendencia de Servicios Sanitarios (SISS),Hidro,0
+Superintendencia de Servicios Sanitarios (SISS),Hospitales,2
+Superintendencia de Servicios Sanitarios (SISS),Metro,0
+Superintendencia de Servicios Sanitarios (SISS),Planta Desaladora,1
+Superintendencia de Servicios Sanitarios (SISS),Químicos,0
+Superintendencia de Servicios Sanitarios (SISS),Residencial,2
+Superintendencia de Servicios Sanitarios (SISS),Transmisión,0
+Superintendencia de Servicios Sanitarios (SISS),Vialidad,0
+Seremi del Medio Ambiente (SMA),Acuícola,6
+Seremi del Medio Ambiente (SMA),Agroindustria,6
+Seremi del Medio Ambiente (SMA),Aguas servidas,6
+Seremi del Medio Ambiente (SMA),Celulosa,6
+Seremi del Medio Ambiente (SMA),ERNC,5
+Seremi del Medio Ambiente (SMA),Gran Minería,6
+Seremi del Medio Ambiente (SMA),Hidro,5
+Seremi del Medio Ambiente (SMA),Hospitales,4
+Seremi del Medio Ambiente (SMA),Metro,4
+Seremi del Medio Ambiente (SMA),Planta Desaladora,6
+Seremi del Medio Ambiente (SMA),Químicos,5
+Seremi del Medio Ambiente (SMA),Residencial,4
+Seremi del Medio Ambiente (SMA),Transmisión,4
+Seremi del Medio Ambiente (SMA),Vialidad,4
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),Acuícola,4
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),Agroindustria,0
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),Aguas servidas,1
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),Celulosa,1
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),ERNC,1
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),Gran Minería,2
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),Hidro,2
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),Hospitales,0
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),Metro,0
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),Planta Desaladora,2
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),Químicos,0
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),Residencial,0
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),Transmisión,0
+Subsecretaría de Pesca y Acuicultura (SUBPESCA),Vialidad,0
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),Acuícola,1
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),Agroindustria,0
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),Aguas servidas,0
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),Celulosa,0
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),ERNC,0
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),Gran Minería,0
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),Hidro,0
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),Hospitales,0
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),Metro,0
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),Planta Desaladora,0
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),Químicos,0
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),Residencial,0
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),Transmisión,0
+Subsecretaría para las Fuerzas Armadas de Chile (SSFFAA),Vialidad,0
+Subsecretaría de Redes Asistenciales,Acuícola,0
+Subsecretaría de Redes Asistenciales,Agroindustria,0
+Subsecretaría de Redes Asistenciales,Aguas servidas,0
+Subsecretaría de Redes Asistenciales,Celulosa,0
+Subsecretaría de Redes Asistenciales,ERNC,0
+Subsecretaría de Redes Asistenciales,Gran Minería,0
+Subsecretaría de Redes Asistenciales,Hidro,0
+Subsecretaría de Redes Asistenciales,Hospitales,2
+Subsecretaría de Redes Asistenciales,Metro,0
+Subsecretaría de Redes Asistenciales,Planta Desaladora,0
+Subsecretaría de Redes Asistenciales,Químicos,0
+Subsecretaría de Redes Asistenciales,Residencial,0
+Subsecretaría de Redes Asistenciales,Transmisión,0
+Subsecretaría de Redes Asistenciales,Vialidad,0
+Subsecretaría de Telecomunicaciones (SUBTEL),Acuícola,3
+Subsecretaría de Telecomunicaciones (SUBTEL),Agroindustria,3
+Subsecretaría de Telecomunicaciones (SUBTEL),Aguas servidas,3
+Subsecretaría de Telecomunicaciones (SUBTEL),Celulosa,3
+Subsecretaría de Telecomunicaciones (SUBTEL),ERNC,3
+Subsecretaría de Telecomunicaciones (SUBTEL),Gran Minería,3
+Subsecretaría de Telecomunicaciones (SUBTEL),Hidro,3
+Subsecretaría de Telecomunicaciones (SUBTEL),Hospitales,3
+Subsecretaría de Telecomunicaciones (SUBTEL),Metro,3
+Subsecretaría de Telecomunicaciones (SUBTEL),Planta Desaladora,3
+Subsecretaría de Telecomunicaciones (SUBTEL),Químicos,3
+Subsecretaría de Telecomunicaciones (SUBTEL),Residencial,3
+Subsecretaría de Telecomunicaciones (SUBTEL),Transmisión,3
+Subsecretaría de Telecomunicaciones (SUBTEL),Vialidad,3
+Tesorería General de la República (TGR),Acuícola,0
+Tesorería General de la República (TGR),Agroindustria,0
+Tesorería General de la República (TGR),Aguas servidas,0
+Tesorería General de la República (TGR),Celulosa,0
+Tesorería General de la República (TGR),ERNC,0
+Tesorería General de la República (TGR),Gran Minería,0
+Tesorería General de la República (TGR),Hidro,0
+Tesorería General de la República (TGR),Hospitales,0
+Tesorería General de la República (TGR),Metro,0
+Tesorería General de la República (TGR),Planta Desaladora,0
+Tesorería General de la República (TGR),Químicos,0
+Tesorería General de la República (TGR),Residencial,1
+Tesorería General de la República (TGR),Transmisión,0
+Tesorería General de la República (TGR),Vialidad,0
+Unidad Operativa de Control de Tránsito (UOCT),Acuícola,0
+Unidad Operativa de Control de Tránsito (UOCT),Agroindustria,0
+Unidad Operativa de Control de Tránsito (UOCT),Aguas servidas,0
+Unidad Operativa de Control de Tránsito (UOCT),Celulosa,0
+Unidad Operativa de Control de Tránsito (UOCT),ERNC,0
+Unidad Operativa de Control de Tránsito (UOCT),Gran Minería,0
+Unidad Operativa de Control de Tránsito (UOCT),Hidro,0
+Unidad Operativa de Control de Tránsito (UOCT),Hospitales,0
+Unidad Operativa de Control de Tránsito (UOCT),Metro,2
+Unidad Operativa de Control de Tránsito (UOCT),Planta Desaladora,0
+Unidad Operativa de Control de Tránsito (UOCT),Químicos,0
+Unidad Operativa de Control de Tránsito (UOCT),Residencial,0
+Unidad Operativa de Control de Tránsito (UOCT),Transmisión,0
+Unidad Operativa de Control de Tránsito (UOCT),Vialidad,2

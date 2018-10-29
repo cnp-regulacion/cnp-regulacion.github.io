@@ -101,7 +101,7 @@ figuras.append('path')
     .attr('d', 'M 120 80 l 20 20 l -20 20 l -20 -20 Z m 0 10 v 20 v -10 h 10 h -20')*/
 
 
-d3.json('jsons/acuicola.json', function (error, json) {
+d3.json('jsons/ernc.json', function (error, json) {
 
     if (error) {
         return console.error(error);

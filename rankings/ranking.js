@@ -27,12 +27,12 @@ var tip = d3.tip()
 
 var svg1 = d3.select("#chart1").append("svg")
     .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr("height", height + margin.top + margin.bottom + 50)
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 var svg2 = d3.select("#chart2").append("svg")
     .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr("height", height + margin.top + margin.bottom +70)
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 var svg3 = d3.select("#chart3").append("svg")
@@ -56,11 +56,11 @@ var datas = [
     {
         name: "Energía",
         data: [
-            {letter: '32', frequency: 51},
-            {letter: '276', frequency: 10},
-            {letter: '6', frequency: 9},
-            {letter: '79', frequency: 5},
-            {letter: '95', frequency: 5}]
+            {letter: 'Resolución de Calificación Ambiental', frequency: 51},
+            {letter: 'Estudio de impacto sobre Sistema de Transporte Urbano (EISTU)', frequency: 10},
+            {letter: 'Constitución Derecho de Aprovechamiento de Aguas', frequency: 9},
+            {letter: 'Permiso de edificación ', frequency: 5},
+            {letter: 'Declaración y Seguimiento de Residuos Peligrosos.', frequency: 5}]
     },
     {
         name: "Industrias",
@@ -74,16 +74,16 @@ var datas = [
     }
 ];
 
-draw(datas[0], svg1);
-draw(datas[1], svg2);
-draw(datas[2], svg3);
+draw(datas[0], svg1, "Requisitos");
+draw(datas[1], svg2 ,"Permisos");
+draw(datas[2], svg3, "Permisos");
 
 function type(d) {
     d.frequency = +d.frequency;
     return d;
 }
 
-function draw(d,s) {
+function draw(d, s , t) {
 
     var data = d.data
     x.domain(data.map(function (d) {
@@ -97,6 +97,7 @@ function draw(d,s) {
     s.append("g")
         .attr("class", "x axis")
         .attr("transform", "translate(0," + height + ")")
+
         .call(xAxis);
 
     s.append("g")
@@ -107,7 +108,7 @@ function draw(d,s) {
         .attr("y", 6)
         .attr("dy", ".71em")
         .style("text-anchor", "end")
-        .text("Permisos");
+        .text(t);
 
     s.selectAll(".bar")
         .data(data)
@@ -126,5 +127,29 @@ function draw(d,s) {
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide)
 
+    s.selectAll("text").call(wrap, 180)
+}
 
+function wrap(text, width) {
+    text.each(function () {
+        var text = d3.select(this),
+            words = text.text().split(/\s+/).reverse(),
+            word,
+            line = [],
+            lineNumber = 0,
+            lineHeight = 1.1, // ems
+            y = text.attr("y"),
+            dy = parseFloat(text.attr("dy")),
+            tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+        while (word = words.pop()) {
+            line.push(word);
+            tspan.text(line.join(" "));
+            if (tspan.node().getComputedTextLength() > width) {
+                line.pop();
+                tspan.text(line.join(" "));
+                line = [word];
+                tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+            }
+        }
+    });
 }

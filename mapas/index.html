@@ -100,8 +100,22 @@ MAIN NAV
                         <li><a href="#">Ranking</a></li>
                     </ul>
                 </li>
-                <li>
+                <li class="submenu">
                     <a href="../mapas">Mapas de Procesos</a>
+                    <ul>
+                        <li><a onclick="changeMap('ernc')">ERNC</a></li>
+                        <li><a onclick="changeMap('transmision')">Transmisión</a></li>
+                        <li><a onclick="changeMap('hidro')">Hidroeléctrico</a></li>
+                        <li><a onclick="changeMap('inmob')">Inmobiliario</a></li>
+                        <li><a onclick="changeMap('exploracion')">Exploración</a></li>
+                        <li><a onclick="changeMap('hospital')">Hospital</a></li>
+                        <li><a onclick="changeMap('vialidad')">Vialidad</a></li>
+                        <li><a onclick="changeMap('metro')">Metro</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target=".bs-example-modal-lg"><i
+                            class="fas fa-question-circle"></i></a>
                 </li>
             </ul>
         </div><!--End navbar-collapse -->
@@ -120,6 +134,115 @@ FEATURES
 =============================================== -->
 
 <section id="about" class="white-bg padding-top-bottom">
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+         style="z-index: 10000">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLongTitle">¿Cómo leer un mapa de procesos?</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p align="justify">Los mapas de procesos tienen por objeto describir y contener información relativa
+                        a todos los permisos que un proyecto tipo de inversión requiere para poder operar. Es decir,
+                        describen el desarrollo del proyecto, desde la toma de decisión de inversión por parte del
+                        titular, hasta el inicio de operación.</p>
+                    <p align="justify">El proceso de inversión de un proyecto está escrito según la notación de procesos
+                        de negocios (BPM por sus siglas en inglés). Un mapa está compuesto esencialmente por dos grandes
+                        bloques:</p>
+                    <ul>
+                        <li><p align="justify"><b>Etapas</b>: se encuentran en la parte superior de cada dibujo y
+                            representan los grandes
+                            hitos de
+                            un proyecto de inversión (ejemplo: pre-construcción, construcción y operación). <i
+                                    class="fas fa-arrow-right"></i> columnas</p>
+                        </li>
+                        <li><p align="justify"><b>Lanes</b>: corresponde a los nombres de las entidades que participan
+                            en el otorgamiento
+                            de los permisos, y se encuentran en el lado izquierdo del dibujo. <i
+                                    class="fas fa-arrow-right"></i> filas</p>
+                        </li>
+                    </ul>
+                    <b>Los mapas de procesos contienen la siguiente notación:</b>
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>Notación</th>
+                            <th>Nombre</th>
+                            <th>Significado</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><img height="120px" class="" src="img/actividad.png" alt=""></td>
+                            <td>Actividad</td>
+                            <td><p align="justify">Acciones realizadas por la entidad correspondiente.</p></td>
+                        </tr>
+                        <tr>
+                            <td><img height="120px" class="" src="img/subproceso.png" alt=""></td>
+                            <td>Subproceso</td>
+                            <td><p align="justify">Representa actividades que, a su vez, corresponden a otro
+                                proceso.</p></td>
+                        </tr>
+                        <tr>
+                            <td><img height="120px" class="" src="img/pregunta.png" alt=""></td>
+                            <td>Pregunta</td>
+                            <td><p align="justify">Describe dos caminos excluyentes que puede seguir el flujo según una
+                                disyuntiva que debe ser respondida “si” o “no”.</p></td>
+                        </tr>
+                        <tr>
+                            <td><img height="120px" class="" src="img/o.png" alt=""></td>
+                            <td>O Inclusivo</td>
+                            <td><p align="justify">Describe actividades que pueden desarrollarse conjuntamente o en
+                                forma separada.</p></td>
+                        </tr>
+                        <tr>
+                            <td><img height="120px" class="" src="img/paralelo.png" alt=""></td>
+                            <td>Paralelo</td>
+                            <td><p align="justify">Se refiere a actividades que temporalmente pueden ser realizadas
+                                simultáneamente.</p></td>
+                        </tr>
+                        <tr>
+                            <td><img height="120px" class="" src="img/inicio.png" alt=""></td>
+                            <td>Inicio</td>
+                            <td><p align="justify">Sitúa el inicio del proceso (decisión de inversión).</p></td>
+                        </tr>
+                        <tr>
+                            <td><img height="120px" class="" src="img/fin.png" alt=""></td>
+                            <td>Fin</td>
+                            <td><p align="justify">Indica el fin del proceso (entrada en operación del proyecto).</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <p>Además de lo anterior, se destacan con colores las siguientes actividades:</p>
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>Notación</th>
+                            <th>Nombre</th>
+                            <th>Significado</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><img height="120px" class="" src="img/permisos.png" alt=""></td>
+                            <td>Permisos intra e inter entidades</td>
+                            <td><p align="justify">Actividades que no constituyen un permiso propiamente tal, sin
+                                embargo, corresponden a acciones relevantes para la obtención del permiso.</p></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="">
 
 
@@ -136,7 +259,6 @@ FEATURES
     </div>
 
 </section>
-
 
 <!-- ==============================================
 SCRIPTS

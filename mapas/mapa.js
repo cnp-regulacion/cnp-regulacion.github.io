@@ -101,7 +101,7 @@ figuras.append('path')
     .attr('d', 'M 120 80 l 20 20 l -20 20 l -20 -20 Z m 0 10 v 20 v -10 h 10 h -20')*/
 
 
-d3.json('nodes.json', function (error, json) {
+d3.json('jsons/acuicola.json', function (error, json) {
 
     if (error) {
         return console.error(error);
@@ -130,24 +130,26 @@ d3.json('nodes.json', function (error, json) {
 
 function inicializarNodos(nodes) {
     var res = nodes
-    for (var i = 0; i < res.length; i++) {
+   for (var i = 0; i < res.length; i++) {
         var node = res[i];
-        //node.id = i;
-  /*      if (node.tipo == "normal" && node.flechas.length > 1) {
+
+        if (node.tipo == "normal" && node.flechas.length > 1) {
             res.push({
-                "original": i,
+                "original": node.id,
+                "id": "p"+node.id,
                 "tipo": "paralelo",
                 "texto": "",
                 "etapa": node.etapa,
                 "organismo": node.organismo,
+                "atras":[],
                 "info": "fgerheshrseh",
                 "enlace": "fhszrea",
                 "flechas": node.flechas,
-                "profundidad": 0,
+                "profundidad": 1,
                 "ley": ""
             })
-            node.flechas = [res.length - 1]
-        }*/
+            node.flechas = ["p"+node.id]
+        }
 
 
     }
@@ -257,19 +259,24 @@ function addNodes(nodes, g) {
 */
 
 function procesarProfundidad(nodes) {
-
+    var z = 0
     var ids = [0];
     for (var i = 0; i < ids.length; i++) {
+        z=z+1
         var id = ids[i]
         var node = nodes.find(function (n) {
-            return n.id === id;
+
+            return n.id.toString()  == id.toString() ;
         });
         //if (node.tipo == "inicial" || node.tipo == "final" || node.tipo == "normal" || node.tipo == "subproceso")
+        //console.log(node)
         for (var j = 0; j < node.flechas.length; j++) {
+            if (z > 200500 ) break
             var flecha = node.flechas[j]
+            //console.log(flecha)
             if (!ids.includes(flecha)) ids.push(flecha)
             var f = nodes.find(function (n) {
-                return n.id === flecha;
+                return n.id.toString()  == flecha.toString() ;
             });
             if (f.profundidad < (node.profundidad + 1)) {
                 f.profundidad = (node.profundidad + 1)
@@ -277,6 +284,7 @@ function procesarProfundidad(nodes) {
             }
         }
     }
+    console.log(z)
 }
 
 function ordenarProfundidad(nodes) {
@@ -381,6 +389,7 @@ function dibujarNodos(matriz) {
     for (var i = 0; i < matriz.nodos.length; i++) {
         for (var j = 0; j < matriz.nodos[i].length; j++) {
             if (matriz.nodos[i][j] != undefined) {
+                //console.log(matriz.nodos[i][j])
                 dibujarNodo(matriz.nodos[i][j], j, i)
             }
         }
@@ -448,6 +457,7 @@ function dibujarFlecha(matriz, desde, x1, y1, hacia, k) {
 }
 
 function dibujarNodo(nodo, x, y) {
+    console.log(nodo)
     var myclass = !nodo.critico ? "actividad" : "actividad-critica"
     var aux;
     switch (nodo.tipo) {
@@ -516,7 +526,7 @@ function dibujarNodo(nodo, x, y) {
 
 function dibujarActividad(nodo, x, y) {
     var myclass
-    if (nodo.critico) myclass = "actividad-critica"
+    if (nodo.critico==1) myclass = "actividad-critica"
     else myclass = nodo.color == 0 ? "actividad" : "blanco"
     var nodoAux = actividades.append('g')
         .attr('class', 'nodo')
@@ -641,6 +651,43 @@ function toggleGroup(grupo) {
             .size([0,16])
             .draw();
     });
+}
+function changeMap(name) {
+
+    actividades.selectAll("*").remove();
+    flechas.selectAll("*").remove();
+    barra_lateral.selectAll("*").remove();
+    barra_superior.selectAll("*").remove();
+
+    d3.json('jsons/'+name+'.json', function (error, json) {
+
+        if (error) {
+            return console.error(error);
+        }
+
+        data = json;
+        var nodos = inicializarNodos(JSON.parse(JSON.stringify(data.nodos)))
+        nodos = mostrarNodos(nodos, data.grupos)
+        procesarProfundidad(nodos)
+        ordenarProfundidad(nodos)
+        var etapas = ordenarEtapas(data.etapas, nodos)
+        var matriz = crearMatriz(etapas, data.etapas, data.organismos)
+        console.log(matriz)
+        dibujarNodos(matriz)
+        dibujarFlechas(matriz)
+        dibujarLayout(matriz)
+        d3.selectAll(".name").each(function (d, i) {
+            d3plus.textwrap()
+                .container(d3.select(this))
+                .valign("middle")
+                .align("center")
+                .resize(true)
+                .size([0,16])
+                .draw();
+        });
+
+    });
+
 }
 
 function dibujarInicio(nodo, x, y) {
